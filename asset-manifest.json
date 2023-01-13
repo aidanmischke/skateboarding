@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/skateboarding/static/css/main.073c9b0a.css",
-    "main.js": "/skateboarding/static/js/main.fa41d53a.js",
+    "main.css": "/skateboarding/static/css/main.f7af2311.css",
+    "main.js": "/skateboarding/static/js/main.c9c6dea6.js",
     "static/js/787.af6d8593.chunk.js": "/skateboarding/static/js/787.af6d8593.chunk.js",
-    "static/media/logo.svg": "/skateboarding/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/PushingDemo.gif": "/skateboarding/static/media/PushingDemo.d289740d3c2485ea0c5e.gif",
+    "static/media/wood-background.jpg": "/skateboarding/static/media/wood-background.1317fed7addb539c69a1.jpg",
+    "static/media/PushingThumb.jpg": "/skateboarding/static/media/PushingThumb.73de13aba5cf57b94338.jpg",
+    "static/media/Impact_label.woff": "/skateboarding/static/media/Impact_label.c409c83060bce0751837.woff",
+    "static/media/polaroid-stained-taped-corners-no-matte.png": "/skateboarding/static/media/polaroid-stained-taped-corners-no-matte.a39d43d5c8b170c13c78.png",
     "index.html": "/skateboarding/index.html",
-    "main.073c9b0a.css.map": "/skateboarding/static/css/main.073c9b0a.css.map",
-    "main.fa41d53a.js.map": "/skateboarding/static/js/main.fa41d53a.js.map",
+    "main.f7af2311.css.map": "/skateboarding/static/css/main.f7af2311.css.map",
+    "main.c9c6dea6.js.map": "/skateboarding/static/js/main.c9c6dea6.js.map",
     "787.af6d8593.chunk.js.map": "/skateboarding/static/js/787.af6d8593.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.fa41d53a.js"
+    "static/css/main.f7af2311.css",
+    "static/js/main.c9c6dea6.js"
   ]
 }
