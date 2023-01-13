@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/skateboarding/static/css/main.ee3fe00b.css",
+    "main.css": "/skateboarding/static/css/main.5f5f16a5.css",
     "main.js": "/skateboarding/static/js/main.d3dbc4e0.js",
     "static/js/787.af6d8593.chunk.js": "/skateboarding/static/js/787.af6d8593.chunk.js",
     "static/media/PushingDemo.gif": "/skateboarding/static/media/PushingDemo.d289740d3c2485ea0c5e.gif",
@@ -9,12 +9,12 @@
     "static/media/Impact_label.woff": "/skateboarding/static/media/Impact_label.c409c83060bce0751837.woff",
     "static/media/polaroid-stained-taped-corners-no-matte.png": "/skateboarding/static/media/polaroid-stained-taped-corners-no-matte.a39d43d5c8b170c13c78.png",
     "index.html": "/skateboarding/index.html",
-    "main.ee3fe00b.css.map": "/skateboarding/static/css/main.ee3fe00b.css.map",
+    "main.5f5f16a5.css.map": "/skateboarding/static/css/main.5f5f16a5.css.map",
     "main.d3dbc4e0.js.map": "/skateboarding/static/js/main.d3dbc4e0.js.map",
     "787.af6d8593.chunk.js.map": "/skateboarding/static/js/787.af6d8593.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee3fe00b.css",
+    "static/css/main.5f5f16a5.css",
     "static/js/main.d3dbc4e0.js"
   ]
 }
