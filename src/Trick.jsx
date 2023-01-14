@@ -7,18 +7,18 @@ export const Trick = (props) => {
         <div>    
             <div className="image-stack" onClick={() => this.props.onClick()} onMouseEnter={() => setShowDemo(true)} onMouseLeave={() => setShowDemo(false)}>
                 
-                <div className="image-stack__item image-stack__item--top">
+                <div className="image-stack__item image-stack__item-level-3">
                     <img style={{width: '95%', display: 'inline'}} src={props.polaroid} alt={"polaroid photo of " + props.name} />
                 </div>
 
-                <div className="foo image-stack__item image-stack__item--middle">
+                <div className="photoFilter image-stack__item image-stack__item-level-2">
                 </div>
 
-                <div className="image-stack__item image-stack__item--bottom">
+                <div className="image-stack__item image-stack__item-level-1">
                     <img style={{margin: '13% 10% 13% 13%', width: '71%', display: 'inline'}} src={showDemo ? props.demo : props.thumb} alt={props.name + " trick"} />
                 </div>
                 
-                <h3 className="image-stack__item image-stack__item--top-trick-title" style={{ fontFamily: 'Impact Label', fontWeight: 'normal', fontSize: '42px'}}>
+                <h3 className="trickTitle image-stack__item image-stack__item-level-4" style={{ fontFamily: 'Impact Label', fontWeight: 'normal', fontSize: '42px'}}>
                     {props.name}
                 </h3>
             </div>

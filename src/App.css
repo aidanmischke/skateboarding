@@ -24,39 +24,41 @@
   opacity: 0.1;
   }
   
+.trickTitle {
+  margin: 0;
+  background-color: #EBEBDB;
+  rotate: z -1deg;
+}
+
 img {
   width: 100%;
   display: block;
   position: relative;
 }
 
-.image-stack__item--top-trick-title {
+.image-stack__item-level-4 {
   z-index: 4;
   grid-row: 25 / span 3;
   grid-column: 4;
-  margin: 0;
-  background-color: #EBEBDB;
-  rotate: z -3deg;
 }
 
-.image-stack__item--top {
+.image-stack__item-level-3 {
   z-index: 3;
   grid-row: 4;
   grid-column: 1 / span 8;
 }
 
-.image-stack__item--middle {
+.image-stack__item-level-2 {
   z-index: 2;
   grid-row: 9 / span 16;
   grid-column: 2 / span 6;
-  margin-left: 2%;
-  margin-right: 8%;
+  margin: 0% 8% 0% 2%;
 }
 
-.image-stack__item--bottom {
+.image-stack__item-level-1 {
   z-index: 1;
-  grid-column: 1 / span 8;
   grid-row: 4;
+  grid-column: 1 / span 8;
 }
 
 @font-face {
