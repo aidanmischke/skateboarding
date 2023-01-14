@@ -31,7 +31,7 @@ class Wall extends React.Component {
         <Trick 
           name="Pushing"
           polaroid={images["polaroid-stained-taped-corners"]}
-          thumb={images["PushingThumb"]} 
+          thumb={images["PushingStill"]} 
           demo={images["PushingDemo"]}
           onClick={() => this.handleClick()}
         ></Trick>
@@ -39,10 +39,26 @@ class Wall extends React.Component {
         <Trick 
           name="Rock to Fakie"
           polaroid={images["polaroid-stained-taped-corners"]}
-          thumb={images["RockToFakieThumb"]} 
+          thumb={images["RockToFakieStill"]} 
           demo={images["RockToFakieDemo"]}
           onClick={() => this.handleClick()}
         ></Trick>
+
+        <Trick 
+          name="50-50 Grind BS"
+          polaroid={images["polaroid-stained-taped-corners"]}
+          thumb={images["50-50GrindBsStill"]} 
+          demo={images["50-50GrindBsDemo"]}
+          onClick={() => this.handleClick()}
+        ></Trick>
+
+        <Trick 
+          name="Roll In"
+          polaroid={images["polaroid-stained-taped-corners"]}
+          thumb={images["RollInStill"]} 
+          demo={images["RollInDemo"]}
+          onClick={() => this.handleClick()}
+        ></Trick>                
       </div>      
     );
   }
