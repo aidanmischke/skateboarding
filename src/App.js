@@ -1,23 +1,46 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import {Trick} from './Trick';
+import Polaroid1 from './resources/polaroids/polaroid-stained-taped-corners.png';
+import PushingThumb from './resources/PushingThumb.jpg';
+import PushingDemo from './resources/PushingDemo.gif';
+
+class Wall extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  
+  handleClick() {
+    return 'hello';
+  };
+
+  renderTrick() {
+    return (
+      <Trick 
+        name="Pushing"
+        polaroid={Polaroid1}
+        thumb={PushingThumb} 
+        demo={PushingDemo}
+        onClick={() => this.handleClick()}
+      ></Trick>
+    );
+  }
+  
+  render() {
+    return (
+      <div>
+        {this.renderTrick()}
+      </div>
+    );
+  }
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+          <Wall></Wall>
+      </div>
     </div>
   );
 }
