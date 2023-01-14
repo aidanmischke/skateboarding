@@ -22,6 +22,10 @@ export const Trick = (props) => {
                     {props.name}
                 </h3>
             </div>
+
+            <div className="trickNotes">
+                {props.notes}
+            </div>
         </div>
     );
     };

@@ -58,6 +58,10 @@
   rotate: z -1deg;
 }
 
+.trickNotes {
+  background-color: bisque;
+}
+
 img {
   width: 100%;
   display: block;
