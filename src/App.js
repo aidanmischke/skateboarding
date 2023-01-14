@@ -2,10 +2,23 @@ import React from 'react';
 import './App.css';
 import {Trick} from './Trick';
 import Polaroid1 from './resources/polaroids/polaroid-stained-taped-corners.png';
-import PushingThumb from './resources/tricks/PushingThumb.jpg';
-import PushingDemo from './resources/tricks/PushingDemo.gif';
-import RockToFakieThumb from './resources/tricks/RockToFakieThumb.jpg';
-import RockToFakieDemo from './resources/tricks/RockToFakieDemo.gif';
+
+function importAll(r) {
+	let images = {};
+  r.keys().forEach((item, index) => { 
+  // images[item.replace('./', '')] = r(item); 
+  
+  let name = r(item).replace('./', ''); 
+  name = r(item).replace('/skateboarding/static/media/', '');
+  name = name.replace(/\..+/, '');
+  console.log(name);
+
+  images[name] = r(item); 
+});
+	return images
+}
+
+const images = importAll(require.context('./resources/tricks', false, /\.(png|jpe?g|gif)$/));
 
 class Wall extends React.Component {
   constructor(props) {
@@ -22,16 +35,16 @@ class Wall extends React.Component {
         <Trick 
           name="Pushing"
           polaroid={Polaroid1}
-          thumb={PushingThumb} 
-          demo={PushingDemo}
+          thumb={images["PushingThumb"]} 
+          demo={images["PushingDemo"]}
           onClick={() => this.handleClick()}
         ></Trick>
 
         <Trick 
           name="Rock to Fakie"
           polaroid={Polaroid1}
-          thumb={RockToFakieThumb} 
-          demo={RockToFakieDemo}
+          thumb={images["RockToFakieThumb"]} 
+          demo={images["RockToFakieDemo"]}
           onClick={() => this.handleClick()}
         ></Trick>
       </div>      
