@@ -75,7 +75,7 @@ class Wall extends React.Component {
           noteBackgroundHeight={900}
           onClick={() => this.handleClick()}
         ></Trick>
-
+        <br /><br /><br /><br />
         <Trick 
           name="Rock to Fakie"
           polaroid={images["polaroid-stained-taped-corners"]}
@@ -86,7 +86,7 @@ class Wall extends React.Component {
           noteBackgroundHeight={1500}
           onClick={() => this.handleClick()}
         ></Trick>
-
+        <br /><br />
         <Trick 
           name="50-50 Grind"
           polaroid={images["polaroid-stained-taped-corners"]}
@@ -97,7 +97,7 @@ class Wall extends React.Component {
           noteBackgroundHeight={1400}
           onClick={() => this.handleClick()}
         ></Trick>
-
+        <br /><br /><br /><br />
         <Trick 
           name="Roll In"
           polaroid={images["polaroid-stained-taped-corners"]}
@@ -107,7 +107,7 @@ class Wall extends React.Component {
           noteBackground={images["note"]}
           noteBackgroundHeight={1500}
           onClick={() => this.handleClick()}
-        ></Trick>                
+        ></Trick>     
       </div>      
     );
   }

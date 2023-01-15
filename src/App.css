@@ -1,21 +1,21 @@
 .App {
+  background-color: black;
   background-image: url("./resources/background/wood-background.jpg");
   background-position: center top;
-  background-color: black;
+  background-repeat: repeat-y;
 }
 
 .container {
   width: 97%;
   margin: 0 auto;
   max-width: 600px;
-  height: 3854px;
 }
 
 .image-stack {
   display: grid;
   position: relative;
   grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: repeat(33, 3%);
+  grid-template-rows: repeat(35, 3%);
   rotate: z 1deg;
 }
 
