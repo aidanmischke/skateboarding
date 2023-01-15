@@ -8,14 +8,14 @@ export const Trick = (props) => {
             <div className="image-stack" onClick={() => this.props.onClick()} onMouseEnter={() => setShowDemo(true)} onMouseLeave={() => setShowDemo(false)}>
                 
                 <div className="image-stack__item image-stack__item-level-3">
-                    <img style={{width: '100%', display: 'inline'}} src={props.polaroid} alt={"polaroid photo of " + props.name} />
+                    <img src={props.polaroid} alt={"polaroid photo of " + props.name} />
                 </div>
 
                 <div className="photoFilter image-stack__item image-stack__item-level-2">
                 </div>
 
                 <div className="image-stack__item image-stack__item-level-1">
-                    <img style={{margin: '13% 8% 13% 13.5%', width: '75%', display: 'inline'}} src={showDemo ? props.demo : props.thumb} alt={props.name + " trick"} />
+                    <img src={showDemo ? props.demo : props.thumb} alt={props.name + " trick"} />
                 </div>
                 
                 <span className="trickTitle image-stack__item image-stack__item-level-4" style={{ fontFamily: 'Impact Label', fontWeight: 'normal', fontSize: '32px'}}>
@@ -26,7 +26,8 @@ export const Trick = (props) => {
                     {props.notes}
                 </div>
                 <div className="image-stack__item image-stack__item-level-1-A">
-                    <img className="noteBackground" src={props.noteBackground} style={{ height: props.noteBackgroundHeight + '%'}}/>
+                    {/* <img className="noteBackground" src={props.noteBackground} style={{ height: props.noteBackgroundHeight + '%'}}/> */}
+                    <img className="noteBackground" src={props.noteBackground} />
                 </div>
             </div>
         </div>

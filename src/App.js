@@ -65,6 +65,7 @@ class Wall extends React.Component {
   renderTrick() {
     return (
       <div>
+        {/* <br /> */}
         <Trick
           name="Pushing"
           polaroid={images["polaroid-stained-taped-corners"]}
