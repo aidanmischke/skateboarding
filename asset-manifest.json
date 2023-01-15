@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/skateboarding/static/css/main.0172a0dd.css",
-    "main.js": "/skateboarding/static/js/main.094db39b.js",
+    "main.js": "/skateboarding/static/js/main.a8fc041c.js",
     "static/js/787.af6d8593.chunk.js": "/skateboarding/static/js/787.af6d8593.chunk.js",
     "static/media/50-50GrindBsDemo.gif": "/skateboarding/static/media/50-50GrindBsDemo.8b62c4a3675b95648f8f.gif",
     "static/media/Rock&RollBsDemo.gif": "/skateboarding/static/media/Rock&RollBsDemo.3394c7fce249d827bea1.gif",
@@ -26,11 +26,11 @@
     "static/media/JMH Typewriter dry.woff": "/skateboarding/static/media/JMH Typewriter dry.ddc4065e9a2f9dd3852e.woff",
     "index.html": "/skateboarding/index.html",
     "main.0172a0dd.css.map": "/skateboarding/static/css/main.0172a0dd.css.map",
-    "main.094db39b.js.map": "/skateboarding/static/js/main.094db39b.js.map",
+    "main.a8fc041c.js.map": "/skateboarding/static/js/main.a8fc041c.js.map",
     "787.af6d8593.chunk.js.map": "/skateboarding/static/js/787.af6d8593.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0172a0dd.css",
-    "static/js/main.094db39b.js"
+    "static/js/main.a8fc041c.js"
   ]
 }
