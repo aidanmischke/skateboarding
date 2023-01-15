@@ -1,28 +1,36 @@
 {
   "files": {
-    "main.css": "/skateboarding/static/css/main.47d7d71c.css",
-    "main.js": "/skateboarding/static/js/main.93ce30bb.js",
+    "main.css": "/skateboarding/static/css/main.0172a0dd.css",
+    "main.js": "/skateboarding/static/js/main.094db39b.js",
     "static/js/787.af6d8593.chunk.js": "/skateboarding/static/js/787.af6d8593.chunk.js",
-    "static/media/PushingDemo.gif": "/skateboarding/static/media/PushingDemo.d289740d3c2485ea0c5e.gif",
     "static/media/50-50GrindBsDemo.gif": "/skateboarding/static/media/50-50GrindBsDemo.8b62c4a3675b95648f8f.gif",
     "static/media/Rock&RollBsDemo.gif": "/skateboarding/static/media/Rock&RollBsDemo.3394c7fce249d827bea1.gif",
+    "static/media/PushingDemo.gif": "/skateboarding/static/media/PushingDemo.aa983964e4059c93f975.gif",
     "static/media/RollInDemo.gif": "/skateboarding/static/media/RollInDemo.ff353adac4f5e382221d.gif",
     "static/media/RockToFakieDemo.gif": "/skateboarding/static/media/RockToFakieDemo.ddb19800074f647f3bad.gif",
     "static/media/wood-background.jpg": "/skateboarding/static/media/wood-background.1317fed7addb539c69a1.jpg",
+    "static/media/note.png": "/skateboarding/static/media/note.3e447641f9b7e814de9d.png",
     "static/media/RockToFakieStill.jpg": "/skateboarding/static/media/RockToFakieStill.0977b1c3f1a1f4e14415.jpg",
     "static/media/50-50GrindBsStill.jpg": "/skateboarding/static/media/50-50GrindBsStill.1c9de13275c53a277c22.jpg",
     "static/media/RollInStill.jpg": "/skateboarding/static/media/RollInStill.fd25a5b4754473e689d7.jpg",
     "static/media/Rock&RollBsStill.jpg": "/skateboarding/static/media/Rock&RollBsStill.3e5af5615159b196551c.jpg",
+    "static/media/polaroid-stained-taped-corners.png": "/skateboarding/static/media/polaroid-stained-taped-corners.12907fca87d1d7f48bff.png",
+    "static/media/polaroid-stained-taped-corners4.png": "/skateboarding/static/media/polaroid-stained-taped-corners4.7ac7b5977dbe942599d3.png",
     "static/media/PushingStill.jpg": "/skateboarding/static/media/PushingStill.73de13aba5cf57b94338.jpg",
+    "static/media/polaroid-stained-taped-corners2.png": "/skateboarding/static/media/polaroid-stained-taped-corners2.ea72f89b940b77d4a469.png",
+    "static/media/note2.jpg": "/skateboarding/static/media/note2.52a45350e9dfaf7d06ac.jpg",
     "static/media/Impact_label.woff": "/skateboarding/static/media/Impact_label.c409c83060bce0751837.woff",
-    "static/media/polaroid-stained-taped-corners.png": "/skateboarding/static/media/polaroid-stained-taped-corners.a39d43d5c8b170c13c78.png",
+    "static/media/JMH Typewriter dry-Thin.woff": "/skateboarding/static/media/JMH Typewriter dry-Thin.a6e1b8950a0e134a44f6.woff",
+    "static/media/JMH Typewriter dry-Bold.woff": "/skateboarding/static/media/JMH Typewriter dry-Bold.7a22a179d9beda1f7d4a.woff",
+    "static/media/JMH Typewriter dry-Black.woff": "/skateboarding/static/media/JMH Typewriter dry-Black.c958b058d57b3e4281bf.woff",
+    "static/media/JMH Typewriter dry.woff": "/skateboarding/static/media/JMH Typewriter dry.ddc4065e9a2f9dd3852e.woff",
     "index.html": "/skateboarding/index.html",
-    "main.47d7d71c.css.map": "/skateboarding/static/css/main.47d7d71c.css.map",
-    "main.93ce30bb.js.map": "/skateboarding/static/js/main.93ce30bb.js.map",
+    "main.0172a0dd.css.map": "/skateboarding/static/css/main.0172a0dd.css.map",
+    "main.094db39b.js.map": "/skateboarding/static/js/main.094db39b.js.map",
     "787.af6d8593.chunk.js.map": "/skateboarding/static/js/787.af6d8593.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47d7d71c.css",
-    "static/js/main.93ce30bb.js"
+    "static/css/main.0172a0dd.css",
+    "static/js/main.094db39b.js"
   ]
 }
