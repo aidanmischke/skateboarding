@@ -8,14 +8,14 @@ export const Trick = (props) => {
             <div className="image-stack" onClick={() => this.props.onClick()} onMouseEnter={() => setShowDemo(true)} onMouseLeave={() => setShowDemo(false)}>
                 
                 <div className="image-stack__item image-stack__item-level-3">
-                    <img style={{width: '95%', display: 'inline'}} src={props.polaroid} alt={"polaroid photo of " + props.name} />
+                    <img style={{width: '100%', display: 'inline'}} src={props.polaroid} alt={"polaroid photo of " + props.name} />
                 </div>
 
                 <div className="photoFilter image-stack__item image-stack__item-level-2">
                 </div>
 
                 <div className="image-stack__item image-stack__item-level-1">
-                    <img style={{margin: '12.5% 8% 13% 13%', width: '71%', display: 'inline'}} src={showDemo ? props.demo : props.thumb} alt={props.name + " trick"} />
+                    <img style={{margin: '13% 8% 13% 13.5%', width: '75%', display: 'inline'}} src={showDemo ? props.demo : props.thumb} alt={props.name + " trick"} />
                 </div>
                 
                 <span className="trickTitle image-stack__item image-stack__item-level-4" style={{ fontFamily: 'Impact Label', fontWeight: 'normal', fontSize: '32px'}}>

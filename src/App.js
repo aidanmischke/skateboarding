@@ -5,11 +5,11 @@ import {Note} from './Note';
 
 function importAll(r) {
 	let images = {};
-  r.keys().forEach((item, index) => { 
+  r.keys().forEach((item, index) => {
   let name = r(item).replace('./', '');
   name = r(item).replace('/skateboarding/static/media/', '');
   name = name.replace(/\..+/, '');
-  images[name] = r(item); 
+  images[name] = r(item);
 });
 	return images
 }
@@ -65,53 +65,58 @@ class Wall extends React.Component {
   renderTrick() {
     return (
       <div>
-        <Trick 
+        <Trick
           name="Pushing"
           polaroid={images["polaroid-stained-taped-corners"]}
-          thumb={images["PushingStill"]} 
+          thumb={images["PushingStill"]}
           demo={images["PushingDemo"]}
           notes={<Note note={pushingTrickNotes}></Note>}
           noteBackground={images["note"]}
-          noteBackgroundHeight={900}
+          noteBackgroundHeight={650}
           onClick={() => this.handleClick()}
         ></Trick>
-        <br /><br /><br /><br />
-        <Trick 
+        <Trick
           name="Rock to Fakie"
           polaroid={images["polaroid-stained-taped-corners"]}
-          thumb={images["RockToFakieStill"]} 
+          thumb={images["RockToFakieStill"]}
           demo={images["RockToFakieDemo"]}
           notes={<Note note={rockToFakieTrickNotes}></Note>}
           noteBackground={images["note"]}
-          noteBackgroundHeight={1500}
+          noteBackgroundHeight={1300}
           onClick={() => this.handleClick()}
         ></Trick>
-        <br /><br />
-        <Trick 
+        <Trick
           name="50-50 Grind"
           polaroid={images["polaroid-stained-taped-corners"]}
-          thumb={images["50-50GrindBsStill"]} 
+          thumb={images["50-50GrindBsStill"]}
           demo={images["50-50GrindBsDemo"]}
           notes={<Note note={fiftyFiftyGrindTrickNotes}></Note>}
           noteBackground={images["note"]}
-          noteBackgroundHeight={1400}
+          noteBackgroundHeight={1000}
           onClick={() => this.handleClick()}
         ></Trick>
-        <br /><br /><br /><br />
-        <Trick 
+        <Trick
           name="Roll In"
           polaroid={images["polaroid-stained-taped-corners"]}
-          thumb={images["RollInStill"]} 
+          thumb={images["RollInStill"]}
           demo={images["RollInDemo"]}
           notes={<Note note={rollInTrickNotes}></Note>}
           noteBackground={images["note"]}
-          noteBackgroundHeight={1500}
+          noteBackgroundHeight={1300}
           onClick={() => this.handleClick()}
-        ></Trick>     
-      </div>      
+        ></Trick>
+
+{/* 
+<br />
+<br />
+<br />
+<br />
+*/}
+
+      </div>
     );
   }
-  
+
   render() {
     return (
       <div>

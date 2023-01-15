@@ -23,37 +23,37 @@
 .image-stack__item-level-4 {
   z-index: 4;
   grid-row: 15 / span 3;
-  grid-column: 3 / span 7;
-  margin: 2% 0% 0% 0%;
+  grid-column: 2 / span 7;
+  margin: 3% 0% 0% 7%;
 }
 
 /* Polaroid Frame */
 .image-stack__item-level-3 {
   z-index: 3;
   grid-row: 4 / span 5;
-  grid-column: 2 / span 8;
+  grid-column: 1 / span 9;
 }
 
 /* Photo Filter */
 .image-stack__item-level-2 {
   z-index: 2;
-  grid-row: 6 / span 10;
-  grid-column: 3 / span 6;
-  margin: 1% 2% 2% 0%;
+  grid-row: 6 / span 11;
+  grid-column: 2 / span 7;
+  margin: 3% 0% 2% 2%;
 }
 
 /* Trick JPG & GIF */
 .image-stack__item-level-1 {
   z-index: 1;
   grid-row: 4;
-  grid-column: 2 / span 8;
+  grid-column: 1 / span 9;
 }
 
 /* Note Text */
 .image-stack__item-level-2-A {
   z-index: 2;
   grid-row: 21;
-  grid-column: 2 / span 8;
+  grid-column: 1 / span 9;
   margin: 5% 2% 0% 4%;
 }
 
@@ -61,7 +61,7 @@
 .image-stack__item-level-1-A {
   z-index: 1;
   grid-row: 21;
-  grid-column: 2 / span 8;
+  grid-column: 1 / span 9;
 }
 
 .photoFilter {
