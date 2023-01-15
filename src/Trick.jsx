@@ -15,7 +15,7 @@ export const Trick = (props) => {
                 </div>
 
                 <div className="image-stack__item image-stack__item-level-1">
-                    <img style={{margin: '13% 10% 13% 13%', width: '71%', display: 'inline'}} src={showDemo ? props.demo : props.thumb} alt={props.name + " trick"} />
+                    <img style={{margin: '12.5% 8% 13% 13%', width: '71%', display: 'inline'}} src={showDemo ? props.demo : props.thumb} alt={props.name + " trick"} />
                 </div>
                 
                 <h3 className="trickTitle image-stack__item image-stack__item-level-4" style={{ fontFamily: 'Impact Label', fontWeight: 'normal', fontSize: '32px'}}>

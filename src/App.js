@@ -43,8 +43,6 @@ const rollInTrickNotes = [
   "Movement helps, but can be done from standstill if all weight is taken off back truck."
 ];
 
-
-
 /*
 const TrickNotes = [
   "",
@@ -54,8 +52,6 @@ const TrickNotes = [
   ""
 ];
 */
-
-// const pushingTrickNotes = <p>Sight where to grind back truck.</p><p>Grind rear truck heelside to avoid hang up on exit.</p>;
 
 class Wall extends React.Component {
   constructor(props) {
@@ -71,7 +67,7 @@ class Wall extends React.Component {
       <div>
         <Trick 
           name="Pushing"
-          polaroid={images["polaroid-stained-taped-corners"]}
+          polaroid={images["polaroid-stained-taped-corners3"]}
           thumb={images["PushingStill"]} 
           demo={images["PushingDemo"]}
           notes={<Note note={pushingTrickNotes}></Note>}
