@@ -67,11 +67,12 @@ class Wall extends React.Component {
       <div>
         <Trick 
           name="Pushing"
-          polaroid={images["polaroid-stained-taped-corners3"]}
+          polaroid={images["polaroid-stained-taped-corners"]}
           thumb={images["PushingStill"]} 
           demo={images["PushingDemo"]}
           notes={<Note note={pushingTrickNotes}></Note>}
-          noteBackground={images["Note"]}
+          noteBackground={images["note"]}
+          noteBackgroundHeight={900}
           onClick={() => this.handleClick()}
         ></Trick>
 
@@ -81,7 +82,8 @@ class Wall extends React.Component {
           thumb={images["RockToFakieStill"]} 
           demo={images["RockToFakieDemo"]}
           notes={<Note note={rockToFakieTrickNotes}></Note>}
-          noteBackground={images["Note"]}
+          noteBackground={images["note"]}
+          noteBackgroundHeight={1500}
           onClick={() => this.handleClick()}
         ></Trick>
 
@@ -91,7 +93,8 @@ class Wall extends React.Component {
           thumb={images["50-50GrindBsStill"]} 
           demo={images["50-50GrindBsDemo"]}
           notes={<Note note={fiftyFiftyGrindTrickNotes}></Note>}
-          noteBackground={images["Note"]}
+          noteBackground={images["note"]}
+          noteBackgroundHeight={1400}
           onClick={() => this.handleClick()}
         ></Trick>
 
@@ -101,7 +104,8 @@ class Wall extends React.Component {
           thumb={images["RollInStill"]} 
           demo={images["RollInDemo"]}
           notes={<Note note={rollInTrickNotes}></Note>}
-          noteBackground={images["Note"]}
+          noteBackground={images["note"]}
+          noteBackgroundHeight={1500}
           onClick={() => this.handleClick()}
         ></Trick>                
       </div>      

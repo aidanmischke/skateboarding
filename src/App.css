@@ -54,7 +54,7 @@
   z-index: 2;
   grid-row: 21;
   grid-column: 2 / span 8;
-  margin: 0% 2% 0% 4%;
+  margin: 5% 2% 0% 4%;
 }
 
 /* Note Background */
@@ -77,7 +77,7 @@
 }
 
 .noteBackground {
-  height: 900%;
+  
 }
 
 img {
@@ -91,4 +91,33 @@ img {
   font-style: normal;
   font-weight: normal;
   src: local('Impact Label'), url('./resources/fonts/Impact_label.woff') format('woff');
-  }
+}
+
+
+@font-face {
+  font-family: 'JMH Typewriter dry Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('JMH Typewriter dry Regular'), url('./resources/fonts/JMH Typewriter dry.woff') format('woff');
+}
+  
+@font-face {
+  font-family: 'JMH Typewriter dry Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('JMH Typewriter dry Thin'), url('./resources/fonts/JMH Typewriter dry-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'JMH Typewriter dry Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('JMH Typewriter dry Bold'), url('./resources/fonts/JMH Typewriter dry-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'JMH Typewriter dry Black';
+  font-style: normal;
+  font-weight: normal;
+  src: local('JMH Typewriter dry Black'), url('./resources/fonts/JMH Typewriter dry-Black.woff') format('woff');
+}

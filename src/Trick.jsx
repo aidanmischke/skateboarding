@@ -22,11 +22,11 @@ export const Trick = (props) => {
                     {props.name}
                 </span>
 
-                <div className="trickNotes image-stack__item image-stack__item-level-2-A">
+                <div className="trickNotes image-stack__item image-stack__item-level-2-A" style={{ fontFamily: 'JMH Typewriter dry Bold', fontWeight: 'normal', fontSize: '16px'}}>
                     {props.notes}
                 </div>
                 <div className="image-stack__item image-stack__item-level-1-A">
-                    <img className="noteBackground" src={props.noteBackground} />
+                    <img className="noteBackground" src={props.noteBackground} style={{ height: props.noteBackgroundHeight + '%'}}/>
                 </div>
             </div>
         </div>
