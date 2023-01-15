@@ -18,13 +18,16 @@ export const Trick = (props) => {
                     <img style={{margin: '12.5% 8% 13% 13%', width: '71%', display: 'inline'}} src={showDemo ? props.demo : props.thumb} alt={props.name + " trick"} />
                 </div>
                 
-                <h3 className="trickTitle image-stack__item image-stack__item-level-4" style={{ fontFamily: 'Impact Label', fontWeight: 'normal', fontSize: '32px'}}>
+                <span className="trickTitle image-stack__item image-stack__item-level-4" style={{ fontFamily: 'Impact Label', fontWeight: 'normal', fontSize: '32px'}}>
                     {props.name}
-                </h3>
-            </div>
+                </span>
 
-            <div className="trickNotes">
-                {props.notes}
+                <div className="trickNotes image-stack__item image-stack__item-level-2-A">
+                    {props.notes}
+                </div>
+                <div className="image-stack__item image-stack__item-level-1-A">
+                    <img className="noteBackground" src={props.noteBackground} />
+                </div>
             </div>
         </div>
     );

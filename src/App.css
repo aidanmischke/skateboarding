@@ -22,23 +22,24 @@
 /* Trick Title */
 .image-stack__item-level-4 {
   z-index: 4;
-  grid-row: 25 / span 3;
+  grid-row: 15 / span 3;
   grid-column: 3 / span 7;
+  margin: 2% 0% 0% 0%;
 }
 
-/* Photo Filter */
+/* Polaroid Frame */
 .image-stack__item-level-3 {
   z-index: 3;
   grid-row: 4 / span 5;
   grid-column: 2 / span 8;
 }
 
-/* Polaroid Frame */
+/* Photo Filter */
 .image-stack__item-level-2 {
   z-index: 2;
-  grid-row: 8 / span 18;
+  grid-row: 6 / span 10;
   grid-column: 3 / span 6;
-  margin: 0% 2% 2% 0%;
+  margin: 1% 2% 2% 0%;
 }
 
 /* Trick JPG & GIF */
@@ -48,18 +49,35 @@
   grid-column: 2 / span 8;
 }
 
+/* Note Text */
+.image-stack__item-level-2-A {
+  z-index: 2;
+  grid-row: 21;
+  grid-column: 2 / span 8;
+  margin: 0% 2% 0% 4%;
+}
+
+/* Note Background */
+.image-stack__item-level-1-A {
+  z-index: 1;
+  grid-row: 21;
+  grid-column: 2 / span 8;
+}
+
 .photoFilter {
   background: #cc9900;
   opacity: 0.15;
   }
   
 .trickTitle {
-  margin: 0;
   rotate: z -1deg;
 }
 
 .trickNotes {
-  background-color: bisque;
+}
+
+.noteBackground {
+  height: 900%;
 }
 
 img {

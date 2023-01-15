@@ -57,7 +57,7 @@ class Wall extends React.Component {
   constructor(props) {
     super(props);
   }
-  
+
   handleClick() {
     return 'hello';
   };
@@ -71,6 +71,7 @@ class Wall extends React.Component {
           thumb={images["PushingStill"]} 
           demo={images["PushingDemo"]}
           notes={<Note note={pushingTrickNotes}></Note>}
+          noteBackground={images["Note"]}
           onClick={() => this.handleClick()}
         ></Trick>
 
@@ -80,6 +81,7 @@ class Wall extends React.Component {
           thumb={images["RockToFakieStill"]} 
           demo={images["RockToFakieDemo"]}
           notes={<Note note={rockToFakieTrickNotes}></Note>}
+          noteBackground={images["Note"]}
           onClick={() => this.handleClick()}
         ></Trick>
 
@@ -89,6 +91,7 @@ class Wall extends React.Component {
           thumb={images["50-50GrindBsStill"]} 
           demo={images["50-50GrindBsDemo"]}
           notes={<Note note={fiftyFiftyGrindTrickNotes}></Note>}
+          noteBackground={images["Note"]}
           onClick={() => this.handleClick()}
         ></Trick>
 
@@ -98,6 +101,7 @@ class Wall extends React.Component {
           thumb={images["RollInStill"]} 
           demo={images["RollInDemo"]}
           notes={<Note note={rollInTrickNotes}></Note>}
+          noteBackground={images["Note"]}
           onClick={() => this.handleClick()}
         ></Trick>                
       </div>      
