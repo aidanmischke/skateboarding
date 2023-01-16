@@ -1,6 +1,6 @@
 .App {
   background-color: black;
-  background-image: url("./resources/background/wood-background.jpg");
+  background-image: url("./resources/background/draft-wood-background2.jpg");
   background-position: center top;
   background-repeat: repeat-y;
 }
@@ -8,7 +8,7 @@
 .container {
   width: 97%;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 1000px;
 }
 
 .image-stack {
@@ -19,8 +19,8 @@
   rotate: z 1deg;
 }
 
-/* Trick Title */
-.image-stack__item-level-4 {
+/* Trick Label */
+.image-stack__item-level-4-trick-label {
   z-index: 4;
   grid-row: 12 / span 3;
   grid-column: 2 / span 7;
@@ -28,22 +28,22 @@
 }
 
 /* Polaroid Frame */
-.image-stack__item-level-3 {
+.image-stack__item-level-3-polaroid-frame {
   z-index: 3;
   grid-row: 1 / span 5;
   grid-column: 1 / span 9;
 }
 
 /* Photo Filter */
-.image-stack__item-level-2 {
+.image-stack__item-level-2-photo-filter {
   z-index: 2;
   grid-row: 3 / span 11;
   grid-column: 2 / span 7;
   margin: 3% 0% 2% 2%;
 }
 
-/* Trick JPG & GIF */
-.image-stack__item-level-1 {
+/* Trick Still and Demo */
+.image-stack__item-level-1-trick-still-and-demo {
   z-index: 1;
   grid-row: 1;
   grid-column: 1 / span 9;
@@ -52,7 +52,7 @@
 }
 
 /* Note Text */
-.image-stack__item-level-2-A {
+.image-stack__item-level-2-note-text {
   z-index: 2;
   grid-row: 18;
   grid-column: 1 / span 9;
@@ -60,7 +60,7 @@
 }
 
 /* Note Background */
-.image-stack__item-level-1-A {
+.image-stack__item-level-1-note-background {
   z-index: 1;
   grid-row: 17 / span 2;
   grid-column: 1 / span 9;
