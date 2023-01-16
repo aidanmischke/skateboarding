@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/skateboarding/static/css/main.cbd5391e.css",
-    "main.js": "/skateboarding/static/js/main.da46cf18.js",
+    "main.css": "/skateboarding/static/css/main.2a808c90.css",
+    "main.js": "/skateboarding/static/js/main.aaa1c09a.js",
     "static/js/787.af6d8593.chunk.js": "/skateboarding/static/js/787.af6d8593.chunk.js",
-    "static/media/draft-wood-background.jpg": "/skateboarding/static/media/draft-wood-background.c3b68132cfd367b4f93e.jpg",
     "static/media/50-50GrindBsDemo.gif": "/skateboarding/static/media/50-50GrindBsDemo.8b62c4a3675b95648f8f.gif",
     "static/media/Rock&RollBsDemo.gif": "/skateboarding/static/media/Rock&RollBsDemo.3394c7fce249d827bea1.gif",
     "static/media/PushingDemo.gif": "/skateboarding/static/media/PushingDemo.aa983964e4059c93f975.gif",
     "static/media/RollInDemo.gif": "/skateboarding/static/media/RollInDemo.ff353adac4f5e382221d.gif",
     "static/media/RockToFakieDemo.gif": "/skateboarding/static/media/RockToFakieDemo.ddb19800074f647f3bad.gif",
-    "static/media/wood-background.jpg": "/skateboarding/static/media/wood-background.1317fed7addb539c69a1.jpg",
     "static/media/draft-wood-background2.jpg": "/skateboarding/static/media/draft-wood-background2.1101e55e878a955f41fe.jpg",
     "static/media/note.png": "/skateboarding/static/media/note.3e447641f9b7e814de9d.png",
     "static/media/RockToFakieStill.jpg": "/skateboarding/static/media/RockToFakieStill.0977b1c3f1a1f4e14415.jpg",
@@ -27,12 +25,12 @@
     "static/media/JMH Typewriter dry-Black.woff": "/skateboarding/static/media/JMH Typewriter dry-Black.c958b058d57b3e4281bf.woff",
     "static/media/JMH Typewriter dry.woff": "/skateboarding/static/media/JMH Typewriter dry.ddc4065e9a2f9dd3852e.woff",
     "index.html": "/skateboarding/index.html",
-    "main.cbd5391e.css.map": "/skateboarding/static/css/main.cbd5391e.css.map",
-    "main.da46cf18.js.map": "/skateboarding/static/js/main.da46cf18.js.map",
+    "main.2a808c90.css.map": "/skateboarding/static/css/main.2a808c90.css.map",
+    "main.aaa1c09a.js.map": "/skateboarding/static/js/main.aaa1c09a.js.map",
     "787.af6d8593.chunk.js.map": "/skateboarding/static/js/787.af6d8593.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbd5391e.css",
-    "static/js/main.da46cf18.js"
+    "static/css/main.2a808c90.css",
+    "static/js/main.aaa1c09a.js"
   ]
 }
