@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/skateboarding/static/css/main.84ffa22c.css",
+    "main.css": "/skateboarding/static/css/main.ae556d53.css",
     "main.js": "/skateboarding/static/js/main.225b3cc6.js",
     "static/js/787.af6d8593.chunk.js": "/skateboarding/static/js/787.af6d8593.chunk.js",
     "static/media/50-50GrindBsDemo.gif": "/skateboarding/static/media/50-50GrindBsDemo.8b62c4a3675b95648f8f.gif",
@@ -26,12 +26,12 @@
     "static/media/JMH Typewriter dry-Black.woff": "/skateboarding/static/media/JMH Typewriter dry-Black.c958b058d57b3e4281bf.woff",
     "static/media/JMH Typewriter dry.woff": "/skateboarding/static/media/JMH Typewriter dry.ddc4065e9a2f9dd3852e.woff",
     "index.html": "/skateboarding/index.html",
-    "main.84ffa22c.css.map": "/skateboarding/static/css/main.84ffa22c.css.map",
+    "main.ae556d53.css.map": "/skateboarding/static/css/main.ae556d53.css.map",
     "main.225b3cc6.js.map": "/skateboarding/static/js/main.225b3cc6.js.map",
     "787.af6d8593.chunk.js.map": "/skateboarding/static/js/787.af6d8593.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84ffa22c.css",
+    "static/css/main.ae556d53.css",
     "static/js/main.225b3cc6.js"
   ]
 }
