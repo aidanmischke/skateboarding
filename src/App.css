@@ -15,16 +15,9 @@
   display: grid;
   position: relative;
   grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: repeat(31, 3%);
+  grid-template-rows: repeat(32, 20px);
   rotate: z 1deg;
-}
-
-/* Trick Label */
-.image-stack__item-level-4-trick-label {
-  z-index: 4;
-  grid-row: 12 / span 3;
-  grid-column: 2 / span 7;
-  margin: 5% 0% 0% 7%;
+  margin: 0% 0% 5% 0%;
 }
 
 /* Polaroid Frame */
@@ -51,10 +44,18 @@
   margin: 13% 8% 13% 13.5%;
 }
 
+/* Trick Label */
+.image-stack__item-level-4-trick-label {
+  z-index: 4;
+  grid-row: 11 / span 3;
+  grid-column: 2 / span 7;
+  margin: 9% 0% 0% 7%;
+}
+
 /* Note Text */
 .image-stack__item-level-5-note-text {
   z-index: 5;
-  grid-row: 19;
+  grid-row: 18;
   grid-column: 1 / span 8;
   margin: 3% 3% 0% 12%;
 }
@@ -62,7 +63,7 @@
 /* Note Background */
 .image-stack__item-level-4-note-background {
   z-index: 4;
-  grid-row: 18 / span 2;
+  grid-row: 17 / span 2;
   grid-column: 1 / span 9;
   /* margin: 7% 0% 0% 0%; */
 }
