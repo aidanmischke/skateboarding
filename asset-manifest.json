@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/skateboarding/static/css/main.ae556d53.css",
-    "main.js": "/skateboarding/static/js/main.225b3cc6.js",
+    "main.css": "/skateboarding/static/css/main.f2b941d4.css",
+    "main.js": "/skateboarding/static/js/main.a52a590a.js",
     "static/js/787.af6d8593.chunk.js": "/skateboarding/static/js/787.af6d8593.chunk.js",
     "static/media/50-50GrindBsDemo.gif": "/skateboarding/static/media/50-50GrindBsDemo.8b62c4a3675b95648f8f.gif",
     "static/media/Rock&RollBsDemo.gif": "/skateboarding/static/media/Rock&RollBsDemo.3394c7fce249d827bea1.gif",
@@ -21,17 +21,14 @@
     "static/media/PushingStill.jpg": "/skateboarding/static/media/PushingStill.73de13aba5cf57b94338.jpg",
     "static/media/polaroid-stained-taped-corners2.png": "/skateboarding/static/media/polaroid-stained-taped-corners2.ea72f89b940b77d4a469.png",
     "static/media/Impact_label.woff": "/skateboarding/static/media/Impact_label.c409c83060bce0751837.woff",
-    "static/media/JMH Typewriter dry-Thin.woff": "/skateboarding/static/media/JMH Typewriter dry-Thin.a6e1b8950a0e134a44f6.woff",
     "static/media/JMH Typewriter dry-Bold.woff": "/skateboarding/static/media/JMH Typewriter dry-Bold.7a22a179d9beda1f7d4a.woff",
-    "static/media/JMH Typewriter dry-Black.woff": "/skateboarding/static/media/JMH Typewriter dry-Black.c958b058d57b3e4281bf.woff",
-    "static/media/JMH Typewriter dry.woff": "/skateboarding/static/media/JMH Typewriter dry.ddc4065e9a2f9dd3852e.woff",
     "index.html": "/skateboarding/index.html",
-    "main.ae556d53.css.map": "/skateboarding/static/css/main.ae556d53.css.map",
-    "main.225b3cc6.js.map": "/skateboarding/static/js/main.225b3cc6.js.map",
+    "main.f2b941d4.css.map": "/skateboarding/static/css/main.f2b941d4.css.map",
+    "main.a52a590a.js.map": "/skateboarding/static/js/main.a52a590a.js.map",
     "787.af6d8593.chunk.js.map": "/skateboarding/static/js/787.af6d8593.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae556d53.css",
-    "static/js/main.225b3cc6.js"
+    "static/css/main.f2b941d4.css",
+    "static/js/main.a52a590a.js"
   ]
 }
