@@ -106,14 +106,6 @@ class Wall extends React.Component {
           noteBackgroundHeight={1300}
           onClick={() => this.handleClick()}
         ></Trick>
-
-{/* 
-<br />
-<br />
-<br />
-<br />
-*/}
-
       </div>
     );
   }

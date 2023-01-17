@@ -25,18 +25,18 @@ export const Trick = (props) => {
                 
                 <span 
                     className="trickLabel image-stack__item image-stack__item-level-4-trick-label" 
-                    style={{ fontFamily: 'Impact Label', fontWeight: 'normal', fontSize: '60px'}}
+                    style={{ fontFamily: 'Impact Label', fontWeight: 'normal', fontSize: '32px'}}
                 >
                     {props.name}
                 </span>
 
                 <div 
-                    className="trickNotes image-stack__item image-stack__item-level-2-note-text" 
-                    style={{ fontFamily: 'JMH Typewriter dry Bold', fontWeight: 'normal', fontSize: '18px'}}
+                    className="trickNotes image-stack__item image-stack__item-level-5-note-text" 
+                    style={{ fontFamily: 'JMH Typewriter dry Bold', fontWeight: 'normal', fontSize: '14px'}}
                 >
                     {props.notes}
                 </div>
-                <div className="image-stack__item image-stack__item-level-1-note-background">
+                <div className="image-stack__item image-stack__item-level-4-note-background">
                     <img className="noteBackground" src={props.noteBackground} />
                 </div>
             </div>
