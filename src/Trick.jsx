@@ -12,11 +12,8 @@ export const Trick = (props) => {
                 onMouseLeave={() => setShowDemo(false)}
             >
                 
-                <div className="stack-3-polaroid-frame">
+                <div className="stack-2-polaroid-frame">
                     <img src={props.polaroid} alt={"polaroid photo of " + props.name} />
-                </div>
-
-                <div className="photoFilter stack-2-photo-filter">
                 </div>
 
                 <div className="stack-1-trick-still-and-demo">
@@ -24,19 +21,19 @@ export const Trick = (props) => {
                 </div>
                 
                 <span 
-                    className="trickLabel stack-4-trick-label" 
+                    className="trickLabel stack-3-trick-label" 
                     style={{ fontFamily: 'Impact Label', fontWeight: 'normal', fontSize: '32px'}}
                 >
                     {props.name}
                 </span>
 
                 <div 
-                    className="trickNotes stack-5-note-text" 
+                    className="trickNotes stack-4-note-text" 
                     style={{ fontFamily: 'JMH Typewriter dry Bold', fontWeight: 'normal', fontSize: '14px'}}
                 >
                     {props.notes}
                 </div>
-                <div className="stack-4-note-background">
+                <div className="stack-3-note-background">
                     <img src={props.noteBackground} />
                 </div>
             </div>
