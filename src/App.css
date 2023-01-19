@@ -19,23 +19,20 @@
   rotate: z 1deg;
 }
 
-/* Polaroid Frame */
-.image-stack__item-level-3-polaroid-frame {
+.stack-3-polaroid-frame {
   z-index: 3;
   grid-row: 1;
   grid-column: 1 / span 9;
 }
 
-/* Photo Filter */
-.image-stack__item-level-2-photo-filter {
+.stack-2-photo-filter {
   z-index: 2;
   grid-row: 3 / span 11;
   grid-column: 2 / span 7;
   margin: 3% 0% 2% 2%;
 }
 
-/* Trick Still and Demo */
-.image-stack__item-level-1-trick-still-and-demo {
+.stack-1-trick-still-and-demo {
   z-index: 1;
   grid-row: 1;
   grid-column: 1 / span 9;
@@ -43,24 +40,21 @@
   margin: 13% 8% 13% 13.5%;
 }
 
-/* Trick Label */
-.image-stack__item-level-4-trick-label {
+.stack-4-trick-label {
   z-index: 4;
   grid-row: 11;
   grid-column: 2 / span 7;
   margin: 5% 0% 0% 7%;
 }
 
-/* Note Text */
-.image-stack__item-level-5-note-text {
+.stack-5-note-text {
   z-index: 5;
   grid-row: 16;
   grid-column: 1 / span 8;
   margin: 5% 2% 0% 12%;
 }
 
-/* Note Background */
-.image-stack__item-level-4-note-background {
+.stack-4-note-background {
   z-index: 4;
   grid-row: 16;
   grid-column: 1 / span 9;
