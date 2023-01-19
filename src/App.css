@@ -1,6 +1,6 @@
 .App {
   background-color: black;
-  background-image: url("./resources/background/draft-wood-background2.jpg");
+  background-image: url("./resources/background/wood-background.jpg");
   background-position: center top;
   background-repeat: repeat-y;
 }
@@ -79,12 +79,12 @@ img {
   font-family: 'Impact Label';
   font-style: normal;
   font-weight: normal;
-  src: local('Impact Label'), url('./resources/fonts/Impact_label.woff') format('woff');
+  src: local('Impact Label'), url('./resources/fonts/impact-label.woff') format('woff');
 }
 
 @font-face {
   font-family: 'JMH Typewriter dry Bold';
   font-style: normal;
   font-weight: normal;
-  src: local('JMH Typewriter dry Bold'), url('./resources/fonts/JMH Typewriter dry-Bold.woff') format('woff');
+  src: local('JMH Typewriter dry Bold'), url('./resources/fonts/jmh-typewriter-dry-bold.woff') format('woff');
 }

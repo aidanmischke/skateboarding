@@ -9,6 +9,7 @@ function importAll(r) {
   let name = r(item).replace('./', '');
   name = r(item).replace('/skateboarding/static/media/', '');
   name = name.replace(/\..+/, '');
+  console.log(name);
   images[name] = r(item);
 });
 	return images
@@ -69,37 +70,37 @@ class Wall extends React.Component {
         <Trick
           name="Pushing"
           polaroid={images["polaroid-stained-taped-corners"]}
-          thumb={images["PushingStill"]}
-          demo={images["PushingDemo"]}
+          thumb={images["pushing-still"]}
+          demo={images["pushing-demo"]}
           notes={<Note note={pushingTrickNotes}></Note>}
-          noteBackground={images["note2"]}
+          noteBackground={images["note-2"]}
           onClick={() => this.handleClick()}
         ></Trick>
         <Trick
           name="Rock to Fakie"
           polaroid={images["polaroid-stained-taped-corners"]}
-          thumb={images["RockToFakieStill"]}
-          demo={images["RockToFakieDemo"]}
+          thumb={images["rock-to-fakie-still"]}
+          demo={images["rock-to-fakie-demo"]}
           notes={<Note note={rockToFakieTrickNotes}></Note>}
-          noteBackground={images["note"]}
+          noteBackground={images["note-1"]}
           onClick={() => this.handleClick()}
         ></Trick>
         <Trick
           name="50-50 Grind"
           polaroid={images["polaroid-stained-taped-corners"]}
-          thumb={images["50-50GrindBsStill"]}
-          demo={images["50-50GrindBsDemo"]}
+          thumb={images["50-50-grind-still"]}
+          demo={images["50-50-grind-demo"]}
           notes={<Note note={fiftyFiftyGrindTrickNotes}></Note>}
-          noteBackground={images["note3"]}
+          noteBackground={images["note-3"]}
           onClick={() => this.handleClick()}
         ></Trick>
         <Trick
           name="Roll In"
           polaroid={images["polaroid-stained-taped-corners"]}
-          thumb={images["RollInStill"]}
-          demo={images["RollInDemo"]}
+          thumb={images["roll-in-still"]}
+          demo={images["roll-in-demo"]}
           notes={<Note note={rollInTrickNotes}></Note>}
-          noteBackground={images["note"]}
+          noteBackground={images["note-1"]}
           onClick={() => this.handleClick()}
         ></Trick>
       </div>
