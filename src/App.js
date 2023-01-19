@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {Trick} from './Trick';
 import {Note} from './Note';
+import TrickNotes from './resources/trick-notes.json';
 
 function importAll(r) {
 	let images = {};
@@ -9,50 +10,13 @@ function importAll(r) {
   let name = r(item).replace('./', '');
   name = r(item).replace('/skateboarding/static/media/', '');
   name = name.replace(/\..+/, '');
-  console.log(name);
+  // console.log(name);
   images[name] = r(item);
 });
 	return images
 }
 
 const images = importAll(require.context('./resources', true, /\.(png|jpe?g|gif)$/));
-
-const pushingTrickNotes = [
-  "Turn front foot parallel with board.",
-  "Swing heelside arm backwards and toeside arm forwards during rear foot push."
-];
-
-const rockToFakieTrickNotes = [
-  "Lift up front truck over coping.",
-  "Click-clack board against coping.",
-  "Exaggerate front truck lift up back over coping to avoid hang up.",
-  "Looks best done deep with coping touching back truck.",
-  "Lean back for extra style."
-];
-
-const fiftyFiftyGrindTrickNotes = [
-  "Sight where to grind back truck.",
-  "Grind rear truck heelside to avoid hang up on exit.",
-  "Grind front truck toeside for stability.",
-  "Grind inside transition for longer grinds."
-];
-
-const rollInTrickNotes = [
-  "Manual into transition.",
-  "Hop weight off back foot to clear coping and avoid hang ups.",
-  "Heelside or toeside is often easier than front on.",
-  "Movement helps, but can be done from standstill if all weight is taken off back truck."
-];
-
-/*
-const TrickNotes = [
-  "",
-  "",
-  "",
-  "",
-  ""
-];
-*/
 
 class Wall extends React.Component {
   constructor(props) {
@@ -72,7 +36,7 @@ class Wall extends React.Component {
           polaroid={images["polaroid-stained-taped-corners"]}
           thumb={images["pushing-still"]}
           demo={images["pushing-demo"]}
-          notes={<Note note={pushingTrickNotes}></Note>}
+          notes={<Note note={TrickNotes["Pushing"]}></Note>}
           noteBackground={images["note-2"]}
           onClick={() => this.handleClick()}
         ></Trick>
@@ -81,7 +45,7 @@ class Wall extends React.Component {
           polaroid={images["polaroid-stained-taped-corners"]}
           thumb={images["rock-to-fakie-still"]}
           demo={images["rock-to-fakie-demo"]}
-          notes={<Note note={rockToFakieTrickNotes}></Note>}
+          notes={<Note note={TrickNotes["Rock-to-Fakie"]}></Note>}
           noteBackground={images["note-1"]}
           onClick={() => this.handleClick()}
         ></Trick>
@@ -90,7 +54,7 @@ class Wall extends React.Component {
           polaroid={images["polaroid-stained-taped-corners"]}
           thumb={images["50-50-grind-still"]}
           demo={images["50-50-grind-demo"]}
-          notes={<Note note={fiftyFiftyGrindTrickNotes}></Note>}
+          notes={<Note note={TrickNotes["50-50-Grind"]}></Note>}
           noteBackground={images["note-3"]}
           onClick={() => this.handleClick()}
         ></Trick>
@@ -99,7 +63,7 @@ class Wall extends React.Component {
           polaroid={images["polaroid-stained-taped-corners"]}
           thumb={images["roll-in-still"]}
           demo={images["roll-in-demo"]}
-          notes={<Note note={rollInTrickNotes}></Note>}
+          notes={<Note note={TrickNotes["Roll-In"]}></Note>}
           noteBackground={images["note-1"]}
           onClick={() => this.handleClick()}
         ></Trick>
@@ -117,6 +81,8 @@ class Wall extends React.Component {
 }
 
 function App() {
+  // console.log("TrickConfig: " + TrickConfig.TrickNotes[0].Pushing);
+
   return (
     <div className="App">
       <div className="container">
