@@ -23,13 +23,60 @@ export const Wall = (props) => {
   return (
     <div>
       <Trick
+        name="Feeble Stall"
+        polaroid={images["polaroid-stained-taped-corners"]}
+        thumb={images["feeble-stall-still"]}
+        demo={images["feeble-stall-demo"]}
+        notes={<Note note={TrickNotes["Pushing"]}></Note>}
+        noteBackground={images["note-2"]}
+      ></Trick>
+      <Trick
+        name="FS Grab"
+        polaroid={images["polaroid-stained-taped-corners"]}
+        thumb={images["fs-grab-still"]}
+        demo={images["fs-grab-demo"]}
+        notes={<Note note={TrickNotes["Pushing"]}></Note>}
+        noteBackground={images["note-2"]}
+      ></Trick>
+      <Trick
+        name="Manual"
+        polaroid={images["polaroid-stained-taped-corners"]}
+        thumb={images["manual-still"]}
+        demo={images["manual-demo"]}
+        notes={<Note note={TrickNotes["Pushing"]}></Note>}
+        noteBackground={images["note-2"]}
+      ></Trick>
+      <Trick
+        name="Rock and Roll"
+        polaroid={images["polaroid-stained-taped-corners"]}
+        thumb={images["rock-and-roll-still"]}
+        demo={images["rock-and-roll-demo"]}
+        notes={<Note note={TrickNotes["Pushing"]}></Note>}
+        noteBackground={images["note-2"]}
+      ></Trick>
+      <Trick
         name="Pushing"
         polaroid={images["polaroid-stained-taped-corners"]}
         thumb={images["pushing-still"]}
         demo={images["pushing-demo"]}
         notes={<Note note={TrickNotes["Pushing"]}></Note>}
         noteBackground={images["note-2"]}
-        onClick={() => this.handleClick()}
+      ></Trick>
+      <Trick
+        name="Pushing"
+        polaroid={images["polaroid-stained-taped-corners"]}
+        thumb={images["pushing-still"]}
+        demo={images["pushing-demo"]}
+        notes={<Note note={TrickNotes["Pushing"]}></Note>}
+        noteBackground={images["note-2"]}
+      ></Trick>
+      <Trick
+        name="Pushing"
+        polaroid={images["polaroid-stained-taped-corners"]}
+        thumb={images["pushing-still"]}
+        demo={images["pushing-demo"]}
+        notes={<Note note={TrickNotes["Pushing"]}></Note>}
+        noteBackground={images["note-2"]}
       ></Trick>
       <Trick
         name="Rock to Fakie"
@@ -38,7 +85,6 @@ export const Wall = (props) => {
         demo={images["rock-to-fakie-demo"]}
         notes={<Note note={TrickNotes["Rock-to-Fakie"]}></Note>}
         noteBackground={images["note-1"]}
-        onClick={() => this.handleClick()}
       ></Trick>
       <Trick
         name="50-50 Grind"
@@ -47,7 +93,6 @@ export const Wall = (props) => {
         demo={images["50-50-grind-demo"]}
         notes={<Note note={TrickNotes["50-50-Grind"]}></Note>}
         noteBackground={images["note-3"]}
-        onClick={() => this.handleClick()}
       ></Trick>
       <Trick
         name="Roll In"
@@ -56,7 +101,6 @@ export const Wall = (props) => {
         demo={images["roll-in-demo"]}
         notes={<Note note={TrickNotes["Roll-In"]}></Note>}
         noteBackground={images["note-1"]}
-        onClick={() => this.handleClick()}
       ></Trick>
     </div>
   );
