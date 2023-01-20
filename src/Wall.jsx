@@ -3,7 +3,7 @@ import { Trick } from "./Trick.jsx";
 import { Note } from "./Note";
 import TrickNotes from "./resources/trick-notes.json";
 
-export const Wall = (props) => {
+export const Wall = () => {
   function importAll(r) {
     let images = {};
     r.keys().forEach((item, index) => {
