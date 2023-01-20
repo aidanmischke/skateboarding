@@ -16,7 +16,7 @@ export const Trick = (props) => {
 
         <div className="stack-1-trick-still-and-demo">
           <img
-            src={showDemo ? props.demo : props.thumb}
+            src={showDemo ? props.demo : props.still}
             alt={props.name + " trick"}
           />
         </div>
