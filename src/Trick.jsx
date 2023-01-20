@@ -26,7 +26,7 @@ export const Trick = (props) => {
           style={{
             fontFamily: "Impact Label",
             fontWeight: "normal",
-            fontSize: "32px",
+            fontSize: "140%",
           }}
         >
           {props.name}
@@ -37,7 +37,7 @@ export const Trick = (props) => {
           style={{
             fontFamily: "JMH Typewriter dry Bold",
             fontWeight: "normal",
-            fontSize: "14px",
+            fontSize: "90%",
           }}
         >
           {props.notes}

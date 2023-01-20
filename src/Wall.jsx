@@ -55,29 +55,95 @@ export const Wall = () => {
         noteBackground={images["note-2"]}
       ></Trick>
       <Trick
-        name="Pushing"
+        name="Tail Stall Nose Grab"
         polaroid={images["polaroid-stained-taped-corners"]}
-        thumb={images["pushing-still"]}
-        demo={images["pushing-demo"]}
+        thumb={images["tail-stall-nose-grab-still"]}
+        demo={images["tail-stall-nose-grab-demo"]}
         notes={<Note note={TrickNotes["Pushing"]}></Note>}
         noteBackground={images["note-2"]}
       ></Trick>
       <Trick
-        name="Pushing"
+        name="Staple Gun"
         polaroid={images["polaroid-stained-taped-corners"]}
-        thumb={images["pushing-still"]}
-        demo={images["pushing-demo"]}
+        thumb={images["staple-gun-still"]}
+        demo={images["staple-gun-demo"]}
         notes={<Note note={TrickNotes["Pushing"]}></Note>}
         noteBackground={images["note-2"]}
       ></Trick>
       <Trick
-        name="Pushing"
+        name="Slash Grind"
         polaroid={images["polaroid-stained-taped-corners"]}
-        thumb={images["pushing-still"]}
-        demo={images["pushing-demo"]}
+        thumb={images["slash-grind-still"]}
+        demo={images["slash-grind-demo"]}
         notes={<Note note={TrickNotes["Pushing"]}></Note>}
         noteBackground={images["note-2"]}
       ></Trick>
+
+      <Trick
+        name="Nose Stall Revert"
+        polaroid={images["polaroid-stained-taped-corners"]}
+        thumb={images["nose-stall-revert-still"]}
+        demo={images["nose-stall-revert-demo"]}
+        notes={<Note note={TrickNotes["Pushing"]}></Note>}
+        noteBackground={images["note-2"]}
+      ></Trick>
+
+      <Trick
+        name="Lipslide"
+        polaroid={images["polaroid-stained-taped-corners"]}
+        thumb={images["lipslide-still"]}
+        demo={images["lipslide-demo"]}
+        notes={<Note note={TrickNotes["Pushing"]}></Note>}
+        noteBackground={images["note-2"]}
+      ></Trick>
+
+      <Trick
+        name="Falling"
+        polaroid={images["polaroid-stained-taped-corners"]}
+        thumb={images["falling-still"]}
+        demo={images["falling-demo"]}
+        notes={<Note note={TrickNotes["Pushing"]}></Note>}
+        noteBackground={images["note-2"]}
+      ></Trick>
+
+      <Trick
+        name="Fakie Tail Stall"
+        polaroid={images["polaroid-stained-taped-corners"]}
+        thumb={images["fakie-tail-stall-still"]}
+        demo={images["fakie-tail-stall-demo"]}
+        notes={<Note note={TrickNotes["Pushing"]}></Note>}
+        noteBackground={images["note-2"]}
+      ></Trick>
+
+      <Trick
+        name="Fakie Half Cab Rock"
+        polaroid={images["polaroid-stained-taped-corners"]}
+        thumb={images["fakie-half-cab-rock-still"]}
+        demo={images["fakie-half-cab-rock-demo"]}
+        notes={<Note note={TrickNotes["Pushing"]}></Note>}
+        noteBackground={images["note-2"]}
+      ></Trick>
+
+      <Trick
+        name="5-0 Stall"
+        polaroid={images["polaroid-stained-taped-corners"]}
+        thumb={images["5-0-stall-still"]}
+        demo={images["5-0-stall-demo"]}
+        notes={<Note note={TrickNotes["Pushing"]}></Note>}
+        noteBackground={images["note-2"]}
+      ></Trick>
+
+      {/* 
+      <Trick
+        name=""
+        polaroid={images["polaroid-stained-taped-corners"]}
+        thumb={images["-still"]}
+        demo={images["-demo"]}
+        notes={<Note note={TrickNotes["Pushing"]}></Note>}
+        noteBackground={images["note-2"]}
+      ></Trick>
+       */}
+
       <Trick
         name="Rock to Fakie"
         polaroid={images["polaroid-stained-taped-corners"]}
