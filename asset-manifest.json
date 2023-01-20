@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/skateboarding/static/css/main.bb482e9e.css",
-    "main.js": "/skateboarding/static/js/main.59dc30dc.js",
+    "main.js": "/skateboarding/static/js/main.df05d0ac.js",
     "static/js/787.af6d8593.chunk.js": "/skateboarding/static/js/787.af6d8593.chunk.js",
     "static/media/falling-demo.gif": "/skateboarding/static/media/falling-demo.a64b608a9d604fb3d063.gif",
     "static/media/nose-stall-revert-demo.gif": "/skateboarding/static/media/nose-stall-revert-demo.9932ef253578f9544e66.gif",
@@ -47,11 +47,11 @@
     "static/media/jmh-typewriter-dry-bold.woff": "/skateboarding/static/media/jmh-typewriter-dry-bold.7a22a179d9beda1f7d4a.woff",
     "index.html": "/skateboarding/index.html",
     "main.bb482e9e.css.map": "/skateboarding/static/css/main.bb482e9e.css.map",
-    "main.59dc30dc.js.map": "/skateboarding/static/js/main.59dc30dc.js.map",
+    "main.df05d0ac.js.map": "/skateboarding/static/js/main.df05d0ac.js.map",
     "787.af6d8593.chunk.js.map": "/skateboarding/static/js/787.af6d8593.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb482e9e.css",
-    "static/js/main.59dc30dc.js"
+    "static/js/main.df05d0ac.js"
   ]
 }
