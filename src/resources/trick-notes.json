@@ -1,4 +1,9 @@
 {
+  "Axle Stall": [
+    "Sight where to stall back truck.",
+    "Stall rear truck heelside to avoid hang up on exit.",
+    "Stall front truck toeside for stability."    
+  ],
   "50-50 Grind": [
     "Sight where to grind back truck.",
     "Grind rear truck heelside to avoid hang up on exit.",
@@ -6,38 +11,75 @@
     "Grind inside transition for longer grinds."
   ],
   "5-0 Stall": [
-    "todo"
+    "Sight where to stall back truck.",
+    "Stall rear truck heelside to avoid hang up on exit.",
+    "Bend knees for stability.",
+    "Pivot frontside to come back into transition."
   ],
   "Fakie Tail Stall": [
-    "todo"
+    "Approach fakie.",
+    "Sight where to stall tail.",
+    "While keeping body inside transition.",
+    "Extend rear leg while bending front leg and stall all weight on tail."
   ],
   "Fakie Half Cab Rock": [
-    "todo"
+    "Approach fakie.",
+    "Turn frontside into rock.",
+    "Bend knees for stability.",
+    "Rock back into transition.",
+    "Less speed helps avoid overshoot."
   ],
   "Falling": [
-    "todo"
+    "Wear knee pads and knee slide with forward momentum.",
+    "When bailing turn into ramp to slide on knees.",
+    "Can slide backwards down transition when wearing elbow and knee pads.",
+    "Always wear a helmet that covers forehead.",
+    "Recommend wearing wrist guards. ",
+    "Padded shorts too if starting out."
   ],
   "Feeble Stall": [
-    "todo"
+    "Sight where to stall back truck.",
+    "Stall rear truck heelside to avoid hang up on exit.",
+    "Stall front toeside wheel behind coping."
   ],
   "FS Grab": [
-    "todo"
+    "Bend down and grab board with rear hand.",
+    "Keep rear arm outside of rear leg for a method grab.",
+    "As front wheels touch coping, pop tail, jump and turn frontside back into transition.",
+    "Come in from side to reduce the turn required."
   ],
   "Lipslide": [
-    "todo"
+    "Approach with side momentum.",
+    "Half cab rock into lipslide position sliding board on coping.",
+    "Bend knees and rock back in with little weight on rear truck.",
+    "Practice front on adding slight side momentum."
   ],
   "Manual": [
-    "todo"
+    "Position rear foot in pocket.",
+    "Lift front wheels and balance on rear wheels.",
+    "Find balance Point and use arms to maintain balance.",
+    "Priority is to avoid scraping tail unless at a smooth skatepark."
   ],
   "Nose Stall Revert": [
-    "todo"
+    "Setup front foot on nose.",
+    "Sight where to stall nose.",
+    "Stall nose with all weight on front foot.",
+    "Bend down before revert.",
+    "Rotate shoulders frontside turning board into the ramp.",
+    "Harder wheels help to complete revert."
   ],
   "Pushing": [
     "Turn front foot parallel with board.",
     "Swing heelside arm backwards and toeside arm forwards during rear foot push."
   ],
   "Rock and Roll": [
-    "todo"
+    "Lift up front truck over coping.",
+    "Click-clack board against coping.",
+    "Turn shoulders frontside back into ramp.",
+    "Exaggerate front truck lift up back over coping to avoid hang up.",
+    "Quickly pivot rear foot to complete turn back.",
+    "Keep weight on rear.",
+    "Looks best done deep with coping touching back truck."
   ],
   "Rock to Fakie": [
     "Lift up front truck over coping.",
@@ -53,12 +95,24 @@
     "Movement helps, but can be done from standstill if all weight is taken off back truck."
   ],
   "Slash Grind": [
-    "todo"
+    "Sight where to grind back truck.",
+    "Grind rear truck heelside to avoid hang up on exit.",
+    "Reduce weight on rear truck to avoid hang up if you grind truck over coping to toeside. ",
+    "Less speed helps avoid overshoot."
   ],
   "Staple Gun": [
-    "todo"
+    "Roll board over coping planting rear foot inside top of transition.",
+    "Extend front leg to push board along top of ramp.",
+    "Then pull board back over coping.",
+    "Jump rear foot back onto board.",
+    "Judge whether you're balanced.",
+    "If unsure bail and jump off.",
+    "Can only be done on half pipes that have wide tops.",
+    "Hip fall risk, recommend padded shorts."
   ],
   "Tail Stall Nose Grab": [
-    "todo"
+    "Grab nose during fakie Tail stall.",
+    "Looks best held long.",
+    "Extend rear arm out."
   ]
 }
