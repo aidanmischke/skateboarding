@@ -3,6 +3,11 @@ import React, { useState } from "react";
 export const Trick = (props) => {
   const [showDemo, setShowDemo] = useState(false);
 
+  const polaroidPath = props.polaroid;
+
+  let polaroidName = polaroidPath.replace("/skateboarding/static/media/", "");
+  polaroidName = polaroidName.replace(/\..+/, "");
+
   return (
     <div>
       <div
@@ -10,7 +15,7 @@ export const Trick = (props) => {
         onMouseEnter={() => setShowDemo(true)}
         onMouseLeave={() => setShowDemo(false)}
       >
-        <div className="stack-2-polaroid-frame">
+        <div className={`stack-2-polaroid-frame ${polaroidName}`}>
           <img src={props.polaroid} alt={"polaroid photo of " + props.name} />
         </div>
 

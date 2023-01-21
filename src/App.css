@@ -27,8 +27,6 @@ body {
   z-index: 3;
   grid-row: 1;
   grid-column: 1 / span 9;
-
-  margin: -5% 0% 0% -2%;
 }
 
 .stack-1-trick-still-and-demo {
@@ -61,6 +59,14 @@ body {
 
 .trickLabel {
   rotate: z -1deg;
+}
+
+.polaroid-stained-taped-corners {
+  margin: 0% 0% 0% 0%;
+}
+
+.polaroid-stained-taped-top {
+  margin: -5% 0% 0% -2%;
 }
 
 img {

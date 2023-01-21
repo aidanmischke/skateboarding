@@ -9,8 +9,7 @@ export const Wall = () => {
   function importAll(r) {
     let images = {};
     r.keys().forEach((item, index) => {
-      let name = r(item).replace("./", "");
-      name = r(item).replace("/skateboarding/static/media/", "");
+      let name = r(item).replace("/skateboarding/static/media/", "");
       name = name.replace(/\..+/, "");
       // console.log(name);
       images[name] = r(item);
