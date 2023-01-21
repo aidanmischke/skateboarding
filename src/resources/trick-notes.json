@@ -1,9 +1,4 @@
 {
-  "Axle Stall": [
-    "Sight where to stall back truck.",
-    "Stall rear truck heelside to avoid hang up on exit.",
-    "Stall front truck toeside for stability."    
-  ],
   "50-50 Grind": [
     "Sight where to grind back truck.",
     "Grind rear truck heelside to avoid hang up on exit.",
@@ -15,6 +10,11 @@
     "Stall rear truck heelside to avoid hang up on exit.",
     "Bend knees for stability.",
     "Pivot frontside to come back into transition."
+  ],
+  "Axle Stall": [
+    "Sight where to stall back truck.",
+    "Stall rear truck heelside to avoid hang up on exit.",
+    "Stall front truck toeside for stability."    
   ],
   "Fakie Tail Stall": [
     "Approach fakie.",

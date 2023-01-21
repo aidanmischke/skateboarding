@@ -11,6 +11,12 @@
     "noteBackground": "note-b",
     "polaroid": "polaroid-stained-taped-corners"
   },
+  "Axle Stall": {
+    "still": "axle-stall-still",
+    "demo": "axle-stall-demo",
+    "noteBackground": "note-a",
+    "polaroid": "polaroid-stained-taped-corners"
+  },  
   "Fakie Half Cab Rock": {
     "still": "fakie-half-cab-rock-still",
     "demo": "fakie-half-cab-rock-demo",
