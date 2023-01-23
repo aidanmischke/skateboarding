@@ -19,7 +19,7 @@ body {
   display: grid;
   position: relative;
   grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: repeat(32, 20px);
+  grid-template-rows: repeat(38, 20px);
   rotate: z 1deg;
 }
 
@@ -62,11 +62,11 @@ body {
 }
 
 .polaroid-stained-taped-corners {
-  margin: 0% 0% 0% 0%;
+  margin: 0% 0% 0% 0.5%;
 }
 
 .polaroid-stained-taped-top {
-  margin: -5% 0% 0% -2%;
+  margin: -4.3% 0% 0% -1%;
 }
 
 img {

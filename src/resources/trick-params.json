@@ -2,25 +2,25 @@
   "50-50 Grind": {
     "still": "50-50-grind-still",
     "demo": "50-50-grind-demo",
-    "noteBackground": "note-c",
+    "noteBackground": "note-e",
     "polaroid": "polaroid-stained-taped-corners"
   },
   "5-0 Stall": {
     "still": "5-0-stall-still",
     "demo": "5-0-stall-demo",
-    "noteBackground": "note-b",
+    "noteBackground": "note-c",
     "polaroid": "polaroid-stained-taped-top"
   },
   "Axle Stall": {
     "still": "axle-stall-still",
     "demo": "axle-stall-demo",
-    "noteBackground": "note-a",
+    "noteBackground": "note-b",
     "polaroid": "polaroid-stained-taped-corners"
   },  
   "Fakie Half Cab Rock": {
     "still": "fakie-half-cab-rock-still",
     "demo": "fakie-half-cab-rock-demo",
-    "noteBackground": "note-b",
+    "noteBackground": "note-c2",
     "polaroid": "polaroid-stained-taped-corners"
   },
   "Fakie Tail Stall": {
@@ -32,7 +32,7 @@
   "Falling": {
     "still": "falling-still",
     "demo": "falling-demo",
-    "noteBackground": "note-c",
+    "noteBackground": "note-f2",
     "polaroid": "polaroid-stained-taped-corners"
   },
   "Feeble Stall": {
@@ -44,25 +44,25 @@
   "FS Grab": {
     "still": "fs-grab-still",
     "demo": "fs-grab-demo",
-    "noteBackground": "note-c",
+    "noteBackground": "note-e",
     "polaroid": "polaroid-stained-taped-corners"
   },
   "Lipslide": {
     "still": "lipslide-still",
     "demo": "lipslide-demo",
-    "noteBackground": "note-b",
+    "noteBackground": "note-e2",
     "polaroid": "polaroid-stained-taped-corners"
   },
   "Manual": {
     "still": "manual-still",
     "demo": "manual-demo",
-    "noteBackground": "note-c",
+    "noteBackground": "note-e",
     "polaroid": "polaroid-stained-taped-corners"
   },
   "Nose Stall Revert": {
     "still": "nose-stall-revert-still",
     "demo": "nose-stall-revert-demo",
-    "noteBackground": "note-c",
+    "noteBackground": "note-f",
     "polaroid": "polaroid-stained-taped-corners"
   },
   "Pushing": {
@@ -74,31 +74,31 @@
   "Rock and Roll": {
     "still": "rock-and-roll-still",
     "demo": "rock-and-roll-demo",
-    "noteBackground": "note-c",
+    "noteBackground": "note-f2",
     "polaroid": "polaroid-stained-taped-corners"
   },
   "Rock to Fakie": {
     "still": "rock-to-fakie-still",
     "demo": "rock-to-fakie-demo",
-    "noteBackground": "note-c",
+    "noteBackground": "note-e",
     "polaroid": "polaroid-stained-taped-corners"
   },
   "Roll In": {
     "still": "roll-in-still",
     "demo": "roll-in-demo",
-    "noteBackground": "note-c",
+    "noteBackground": "note-e2",
     "polaroid": "polaroid-stained-taped-corners"
   },
   "Slash Grind": {
     "still": "slash-grind-still",
     "demo": "slash-grind-demo",
-    "noteBackground": "note-b",
+    "noteBackground": "note-e",
     "polaroid": "polaroid-stained-taped-corners"
   },
   "Staple Gun": {
     "still": "staple-gun-still",
     "demo": "staple-gun-demo",
-    "noteBackground": "note-c",
+    "noteBackground": "note-f2",
     "polaroid": "polaroid-stained-taped-corners"
   },
   "Tail Stall Nose Grab": {
