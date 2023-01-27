@@ -8,6 +8,11 @@ export const Trick = (props) => {
   let polaroidName = polaroidPath.replace("/skateboarding/static/media/", "");
   polaroidName = polaroidName.replace(/\..+/, "");
 
+  const noteBackgroundPath = props.noteBackground;
+
+  let noteBackgroundName = noteBackgroundPath.replace("/skateboarding/static/media/", "");
+  noteBackgroundName = noteBackgroundName.replace(/\..+/, "");
+
   return (
     <div>
       <div
@@ -38,7 +43,7 @@ export const Trick = (props) => {
         </span>
 
         <div
-          className="trickNotes stack-4-note-text"
+          className={`trickNotes stack-4-note-text ${noteBackgroundName}`}
           style={{
             fontFamily: "JMH Typewriter dry Bold",
             fontWeight: "normal",
