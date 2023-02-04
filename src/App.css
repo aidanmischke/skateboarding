@@ -61,12 +61,16 @@ body {
   rotate: z -1deg;
 }
 
-.polaroid-stained-taped-corners {
+.polaroid-1 {
   margin: 0% 0% 0% 0.5%;
 }
 
-.polaroid-stained-taped-top {
-  margin: -4.3% 0% 0% -1%;
+.polaroid-2 {
+  margin: 0% 0% 0% 0.5%;
+}
+
+.polaroid-3 {
+  margin: 0% 0% 0% 0.5%;
 }
 
 .note-6 {

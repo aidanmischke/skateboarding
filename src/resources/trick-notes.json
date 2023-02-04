@@ -11,16 +11,31 @@
     "Bend knees for stability.",
     "Pivot frontside to come back into transition."
   ],
+  "5-0 Stall Fakie": [
+    "Sight where to stall back truck.",
+    "Stall rear truck heelside to avoid hang up on exit.",
+    "Turn legs prallel with coping.",
+    "Try to keep shoulders perpendicular with coping.",
+    "To come back in, put pressure on rear toes as you turn and clear coping."
+  ],
   "Axle Stall": [
     "Sight where to stall back truck.",
     "Stall rear truck heelside to avoid hang up on exit.",
     "Stall front truck toeside for stability."    
   ],
-  "Fakie Tail Stall": [
-    "Approach fakie.",
-    "Sight where to stall tail.",
-    "While keeping body inside transition.",
-    "Extend rear leg while bending front leg and stall all weight on tail."
+  "Disaster": [
+    "Come up ramp like FS kick turn.",
+    "Go faster and keep turning past the coping to overshoot it.",
+    "And you'll land in a disaster.",
+    "Land on top of the ramp to help with stability.",
+    "When learning, can land with rear truck touching coping.",
+    "To come back in, press on nose and lift rear truck back over coping.",
+    "Can add Ollie into later when comfortable."
+  ],
+  "Fakie Crook": [
+    "Similar to fakie tail stall.",
+    "Press on heel to pinch rear wheel like a 5-0.",
+    "If you go too fast, can overshoot, and end up in a board stall."
   ],
   "Fakie Half Cab Rock": [
     "Approach fakie.",
@@ -29,6 +44,12 @@
     "Rock back into transition.",
     "Less speed helps avoid overshoot."
   ],
+  "Fakie Tail Stall": [
+    "Approach fakie.",
+    "Sight where to stall tail.",
+    "While keeping body inside transition.",
+    "Extend rear leg while bending front leg and stall all weight on tail."
+  ],  
   "Falling": [
     "Wear knee pads and knee slide with forward momentum.",
     "When bailing turn into ramp to slide on knees.",
@@ -47,6 +68,11 @@
     "Keep rear arm outside of rear leg for a method grab.",
     "As front wheels touch coping, pop tail, jump and turn frontside back into transition.",
     "Come in from side to reduce the turn required."
+  ],
+  "Half Cab Rock+Roll": [
+    "Get into fakie half cab rock.",
+    "Continue to turn shoulders.",
+    "Press down on tail firmly to help get wheels over coping to complete Rock and Roll."
   ],
   "Lipslide": [
     "Approach with side momentum.",
