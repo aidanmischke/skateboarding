@@ -1,5 +1,6 @@
 import React from "react";
 import { Trick } from "./Trick.jsx";
+import Source from "./Source.jsx";
 import { Note } from "./Note";
 import TrickOrder from "./resources/trick-order.json";
 import TrickParams from "./resources/trick-params.json";
@@ -40,6 +41,7 @@ export const Wall = () => {
         demo={images[trickParams.demo]}
         notes={<Note note={TrickNotes[trickName]}></Note>}
         noteBackground={images[trickParams.noteBackground]}
+        source={<Source url={trickParams.source}></Source>}
       ></Trick>
     );
   }

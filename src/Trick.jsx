@@ -31,6 +31,8 @@ export const Trick = (props) => {
           />
         </div>
 
+        {props.source}
+
         <span
           className="trickLabel stack-3-trick-label"
           style={{

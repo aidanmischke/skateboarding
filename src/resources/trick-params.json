@@ -15,7 +15,8 @@
     "still": "5-0-stall-fakie-still",
     "demo": "5-0-stall-fakie-demo",
     "noteBackground": "note-7",
-    "polaroid": "polaroid-1"
+    "polaroid": "polaroid-1",
+    "source": "https://youtu.be/X_TOlXoeN64"
   },
   "Axle Stall": {
     "still": "axle-stall-still",
@@ -27,7 +28,8 @@
     "still": "disaster-still",
     "demo": "disaster-demo",
     "noteBackground": "note-9",
-    "polaroid": "polaroid-1"
+    "polaroid": "polaroid-1",
+    "source": "https://youtu.be/o7C4Vk8U82U?t=245"
   },
   "Fakie Half Cab Rock": {
     "still": "fakie-half-cab-rock-still",
@@ -39,7 +41,8 @@
     "still": "fakie-crook-still",
     "demo": "fakie-crook-demo",
     "noteBackground": "note-4",
-    "polaroid": "polaroid-1"
+    "polaroid": "polaroid-1",
+    "source": "https://youtu.be/o7C4Vk8U82U?t=140"
   },  
   "Fakie Tail Stall": {
     "still": "fakie-tail-stall-still",
@@ -69,7 +72,8 @@
   "still": "half-cab-rock-and-roll-still",
   "demo": "half-cab-rock-and-roll-demo",
   "noteBackground": "note-3",
-  "polaroid": "polaroid-2"
+  "polaroid": "polaroid-2",
+  "source": "https://youtu.be/o7C4Vk8U82U?t=354"
   },
   "Lipslide": {
     "still": "lipslide-still",
