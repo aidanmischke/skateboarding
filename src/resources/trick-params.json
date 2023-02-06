@@ -28,7 +28,7 @@
     "still": "disaster-still",
     "demo": "disaster-demo",
     "noteBackground": "note-9",
-    "polaroid": "polaroid-1",
+    "polaroid": "polaroid-3",
     "source": "https://youtu.be/o7C4Vk8U82U?t=245"
   },
   "Fakie Half Cab Rock": {
@@ -41,7 +41,7 @@
     "still": "fakie-crook-still",
     "demo": "fakie-crook-demo",
     "noteBackground": "note-4",
-    "polaroid": "polaroid-3",
+    "polaroid": "polaroid-2",
     "source": "https://youtu.be/o7C4Vk8U82U?t=140"
   },  
   "Fakie Tail Stall": {
@@ -54,7 +54,7 @@
     "still": "falling-still",
     "demo": "falling-demo",
     "noteBackground": "note-8",
-    "polaroid": "polaroid-1"
+    "polaroid": "polaroid-2"
   },
   "Feeble Stall": {
     "still": "feeble-stall-still",
@@ -79,7 +79,7 @@
     "still": "lipslide-still",
     "demo": "lipslide-demo",
     "noteBackground": "note-6",
-    "polaroid": "polaroid-1"
+    "polaroid": "polaroid-2"
   },
   "Manual": {
     "still": "manual-still",
@@ -97,7 +97,7 @@
     "still": "pushing-still",
     "demo": "pushing-demo",
     "noteBackground": "note-2",
-    "polaroid": "polaroid-1"
+    "polaroid": "polaroid-3"
   },
   "Rock and Roll": {
     "still": "rock-and-roll-still",
@@ -121,7 +121,7 @@
     "still": "slash-grind-still",
     "demo": "slash-grind-demo",
     "noteBackground": "note-6",
-    "polaroid": "polaroid-1"
+    "polaroid": "polaroid-3"
   },
   "Staple Gun": {
     "still": "staple-gun-still",
@@ -134,5 +134,12 @@
     "demo": "tail-stall-nose-grab-demo",
     "noteBackground": "note-2",
     "polaroid": "polaroid-1"
+  },
+  "Texas Two-Step": {
+    "still": "texas-two-step-still",
+    "demo": "texas-two-step-demo",
+    "noteBackground": "note-8",
+    "polaroid": "polaroid-1",
+    "source": "https://www.youtube.com/watch?v=TRGVdjQukes&ab_channel=DaSkateChannelTV9"
   }
 }
