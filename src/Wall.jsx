@@ -1,6 +1,6 @@
 import React from "react";
 import { Trick } from "./Trick.jsx";
-import Source from "./Source.jsx";
+import { Source } from "./Source.jsx";
 import { Note } from "./Note";
 import TrickOrder from "./resources/trick-order.json";
 import TrickParams from "./resources/trick-params.json";
@@ -12,7 +12,6 @@ export const Wall = () => {
     r.keys().forEach((item, index) => {
       let name = r(item).replace("/skateboarding/static/media/", "");
       name = name.replace(/\..+/, "");
-      // console.log(name);
       images[name] = r(item);
     });
     return images;
@@ -21,8 +20,6 @@ export const Wall = () => {
   const images = importAll(
     require.context("./resources", true, /\.(png|jpe?g|gif)$/)
   );
-
-  
 
   const trickCount = TrickOrder.Order.length;
 

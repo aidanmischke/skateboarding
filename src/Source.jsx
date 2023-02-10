@@ -1,9 +1,9 @@
 import React from "react";
 
 export const Source = (props) => {
-    
-if(props.url !== undefined) {
-    return (<span
+  if (props.url !== undefined) {
+    return (
+      <span
         className="trickSource stack-3-trick-source"
         style={{
           fontFamily: "Impact Label",
@@ -15,11 +15,10 @@ if(props.url !== undefined) {
           S o u r c e
         </a>
       </span>
-    )
-}
-else {
+    );
+  } else {
     return null;
-}
+  }
 };
 
 export default Source;

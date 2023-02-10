@@ -20,7 +20,7 @@ export const Trick = (props) => {
         onMouseEnter={() => setShowDemo(true)}
         onMouseLeave={() => setShowDemo(false)}
       >
-        <div className={`stack-2-polaroid-frame`}>
+        <div className={"stack-2-polaroid-frame"}>
           <img src={props.polaroid} alt={"polaroid photo of " + props.name} />
         </div>
 
