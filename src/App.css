@@ -24,7 +24,7 @@ body {
 }
 
 .stack-2-polaroid-frame {
-  z-index: 3;
+  z-index: 2;
   grid-row: 1;
   grid-column: 1 / span 9;
 }
@@ -38,14 +38,14 @@ body {
 }
 
 .stack-3-trick-label {
-  z-index: 4;
+  z-index: 3;
   grid-row: 11;
   grid-column: 2 / span 7;
   margin: 7% 0% 0% 7%;
 }
 
 .stack-3-trick-source {
-  z-index: 4;
+  z-index: 3;
   grid-row: 6;
   grid-column: 8 / span 2;
   margin: 7% 0% 0% 11%;
@@ -53,41 +53,16 @@ body {
 }
 
 .stack-4-note-text {
-  z-index: 5;
+  z-index: 4;
   grid-row: 16;
   grid-column: 1 / span 8;
   margin: 5% 2% 0% 12%;
 }
 
 .stack-3-note-background {
-  z-index: 4;
+  z-index: 3;
   grid-row: 16;
   grid-column: 1 / span 9;
-}
-
-.trickSource {
-  rotate: z -90deg;
-}
-
-a:link {
-  color: black;
-}
-
-a:visited {
-  color: black;
-}
-
-a:hover {
-  color: hotpink;
-}
-
-/* Clicking link */
-a:active {
-  color: hotpink;
-}
-
-.trickLabel {
-  rotate: z -1deg;
 }
 
 .polaroid-1 {
@@ -122,6 +97,30 @@ img {
   width: 100%;
   display: block;
   position: relative;
+}
+
+.trickLabel {
+  rotate: z -1deg;
+}
+
+.trickSource {
+  rotate: z -90deg;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: hotpink;
 }
 
 @font-face {
