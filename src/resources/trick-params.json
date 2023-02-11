@@ -27,7 +27,7 @@
   "Disaster": {
     "still": "disaster-still",
     "demo": "disaster-demo",
-    "noteBackground": "note-9",
+    "noteBackground": "note-10",
     "polaroid": "polaroid-3",
     "source": "https://youtu.be/o7C4Vk8U82U?t=245"
   },
@@ -53,7 +53,7 @@
   "Falling": {
     "still": "falling-still",
     "demo": "falling-demo",
-    "noteBackground": "note-8",
+    "noteBackground": "note-9",
     "polaroid": "polaroid-2"
   },
   "Feeble Stall": {
@@ -126,7 +126,7 @@
   "Staple Gun": {
     "still": "staple-gun-still",
     "demo": "staple-gun-demo",
-    "noteBackground": "note-9",
+    "noteBackground": "note-11",
     "polaroid": "polaroid-2"
   },
   "Tail Stall Nose Grab": {
