@@ -57,7 +57,7 @@ body {
   z-index: 4;
   grid-row: 16;
   grid-column: 1 / span 8;
-  margin: 5% 2% 0% 12%;
+  margin: 9% 2% 0% 14%;
 }
 
 .stack-3-note-background {
@@ -67,19 +67,7 @@ body {
 }
 
 .note-6 {
-  margin: 7% 2% 0% 17%;
-}
-
-.note-7 {
-  margin: 7% 2% 0% 12%;
-}
-
-.note-8 {
-  margin: 9% 2% 0% 11.2%;
-}
-
-.note-9 {
-  margin: 4% 2% 0% 14%;
+  margin: 9% 2% 0% 17%;
 }
 
 .note-11 {
