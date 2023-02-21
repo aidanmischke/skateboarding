@@ -1,6 +1,6 @@
 import React from "react";
-import { Trick } from "./Trick.jsx";
-import { Source } from "./Source.jsx";
+import { Trick } from "./trick.jsx";
+import { Source } from "./source.jsx";
 import TrickOrder from "./resources/trick-order.json";
 import TrickParams from "./resources/trick-params.json";
 

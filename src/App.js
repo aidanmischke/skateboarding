@@ -1,5 +1,5 @@
 import React from "react";
-import { Wall } from "./Wall";
+import { Wall } from "./wall";
 import "./App.css";
 
 function App() {

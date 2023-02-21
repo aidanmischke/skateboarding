@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Note } from "./Note";
+import { Note } from "./note";
 import { NoteBackground } from "./note-background";
 import TrickNotes from "./resources/trick-notes.json";
 
