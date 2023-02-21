@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import { Note } from "./Note";
+import { NoteBackground } from "./note-background";
+import TrickNotes from "./resources/trick-notes.json";
 
 export const Trick = (props) => {
   const [showDemo, setShowDemo] = useState(false);
@@ -8,10 +11,13 @@ export const Trick = (props) => {
   let polaroidName = polaroidPath.replace("/skateboarding/static/media/", "");
   polaroidName = polaroidName.replace(/\..+/, "");
 
-  const noteBackgroundPath = props.noteBackground;
+  const noteText = TrickNotes[props.name];
+  const noteLength = noteText.length;
+  const noteLines = [];
 
-  let noteBackgroundName = noteBackgroundPath.replace("/skateboarding/static/media/", "");
-  noteBackgroundName = noteBackgroundName.replace(/\..+/, "");
+  for (let i = 0; i < noteLength; i++) {
+    noteLines.push(<p key={i}>{noteText[i]}</p>);
+  }
 
   return (
     <div>
@@ -44,19 +50,15 @@ export const Trick = (props) => {
           {props.name}
         </span>
 
-        <div
-          className={`trickNotes stack-4-note-text ${noteBackgroundName}`}
-          style={{
-            fontFamily: "JMH Typewriter dry Bold",
-            fontWeight: "normal",
-            fontSize: "90%",
-          }}
-        >
-          {props.notes}
-        </div>
-        <div className="stack-3-note-background">
-          <img src={props.noteBackground} />
-        </div>
+        <Note
+          noteLines={noteLines}
+        ></Note>
+        
+        <NoteBackground
+          noteLines={noteLines}
+          noteBackgrounds={props.noteBackgrounds}
+        ></NoteBackground>
+
       </div>
     </div>
   );

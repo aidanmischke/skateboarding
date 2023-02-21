@@ -1,15 +1,19 @@
 import React from "react";
 
 export const Note = (props) => {
-  const note = props.note;
-  const length = note.length;
-  const lines = [];
 
-  for (let i = 0; i < length; i++) {
-    lines.push(<p key={i}>{note[i]}</p>);
-  }
-
-  return <div>{lines}</div>;
+  return (
+    <div
+      className={`trickNotes stack-4-note-text`}
+      style={{
+        fontFamily: "JMH Typewriter dry Bold",
+        fontWeight: "normal",
+        fontSize: "90%",
+      }}
+    >
+      {props.noteLines}
+    </div>
+  );
 };
 
 export default Note;

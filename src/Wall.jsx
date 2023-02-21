@@ -1,10 +1,8 @@
 import React from "react";
 import { Trick } from "./Trick.jsx";
 import { Source } from "./Source.jsx";
-import { Note } from "./Note";
 import TrickOrder from "./resources/trick-order.json";
 import TrickParams from "./resources/trick-params.json";
-import TrickNotes from "./resources/trick-notes.json";
 
 export const Wall = () => {
   function importAll(r) {
@@ -21,6 +19,18 @@ export const Wall = () => {
     require.context("./resources", true, /\.(png|jpe?g|gif)$/)
   );
 
+  function getNoteBackgrounds(object) {
+    let noteBackgrounds = {};
+    for (const property in object) {
+        if (property.includes("note-")) {
+        noteBackgrounds[property] = object[property];
+      }
+    }
+    return noteBackgrounds;
+  }
+
+  const noteBackgrounds = getNoteBackgrounds(images);
+
   const trickCount = TrickOrder.Order.length;
 
   const tricks = [];
@@ -36,8 +46,7 @@ export const Wall = () => {
         polaroid={images[trickParams.polaroid]}
         still={images[trickParams.still]}
         demo={images[trickParams.demo]}
-        notes={<Note note={TrickNotes[trickName]}></Note>}
-        noteBackground={images[trickParams.noteBackground]}
+        noteBackgrounds={noteBackgrounds}
         source={<Source url={trickParams.source}></Source>}
       ></Trick>
     );
