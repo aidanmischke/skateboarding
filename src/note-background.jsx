@@ -5,18 +5,19 @@ export const NoteBackground = (props) => {
     const noteBackgrounds = props.noteBackgrounds;
     const noteLines = props.noteLines;
     const noteLineCount = noteLines.length;
-    const splitLineLimit = 65;
-    const heightMultiplier = 1;
+    const lineCharLimit = 35;
+    const heightMultiplier = 1.1;
     let noteBackgroundHeight = 0;
 
     for (let i = 0; i < noteLineCount; i++) {
-        noteBackgroundHeight += 1;
-        if (noteLines[i].props.children.length >= splitLineLimit) {
-            noteBackgroundHeight += 2;
-        }
+        const charLength = noteLines[i].props.children.length;
+        
+        noteBackgroundHeight += (Math.ceil(charLength / lineCharLimit)) * heightMultiplier;
     }
 
-    const noteName = "note-" + Math.floor(noteBackgroundHeight * heightMultiplier);
+    //console.log("noteBackgroundHeight: " + noteBackgroundHeight);
+
+    const noteName = "note-" + Math.ceil(noteBackgroundHeight);
 
     return (
       <div className="stack-3-note-background">
