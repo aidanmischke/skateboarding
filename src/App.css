@@ -56,8 +56,8 @@ body {
 .stack-4-note-text {
   z-index: 4;
   grid-row: 16;
-  grid-column: 1 / span 8;
-  margin: 10% 2% 0% 14%;
+  grid-column: 1 / span 9;
+  margin: 10% 3% 0% 5%;
 }
 
 .stack-4-note-tape {

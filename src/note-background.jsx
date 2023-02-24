@@ -4,9 +4,9 @@ export const NoteBackground = (props) => {
   const noteBackground = props.noteBackground;
   const noteLines = props.noteLines;
   const noteLineCount = noteLines.length;
-  const lineCharLimit = 33;
-  const heightMultiplier = 1.1;
-  const multipleLineMultiplier = 0.3;
+  const lineCharLimit = 45;
+  const heightMultiplier = 0.9;
+  const multipleLineMultiplier = 0.4;
   const pixelMultiplier = 40;
   const styleMaxHeight = "400px";
   let noteBackgroundHeight = 0;
