@@ -1,7 +1,6 @@
 import React from "react";
 
 export const Note = (props) => {
-
   return (
     <div
       className={`trickNotes stack-4-note-text`}

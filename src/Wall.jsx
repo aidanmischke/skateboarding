@@ -22,7 +22,7 @@ export const Wall = () => {
   function getNoteTape(object) {
     let noteTape = {};
     for (const property in object) {
-        if (property.includes("tape")) {
+      if (property.includes("tape")) {
         noteTape[property] = object[property];
       }
     }

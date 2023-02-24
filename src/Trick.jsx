@@ -51,19 +51,14 @@ export const Trick = (props) => {
           {props.name}
         </span>
 
-        <Note
-          noteLines={noteLines}
-        ></Note>
+        <Note noteLines={noteLines}></Note>
 
-        <NoteTape
-          noteTape={props.noteTape}
-        ></NoteTape>
-        
+        <NoteTape noteTape={props.noteTape}></NoteTape>
+
         <NoteBackground
           noteBackground={props.noteBackground}
           noteLines={noteLines}
         ></NoteBackground>
-
       </div>
     </div>
   );
