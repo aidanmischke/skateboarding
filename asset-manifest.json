@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/skateboarding/static/css/main.13096429.css",
-    "main.js": "/skateboarding/static/js/main.7c2fd940.js",
+    "main.css": "/skateboarding/static/css/main.ca05808c.css",
+    "main.js": "/skateboarding/static/js/main.20891d6c.js",
     "static/js/787.af6d8593.chunk.js": "/skateboarding/static/js/787.af6d8593.chunk.js",
     "static/media/texas-two-step-demo.gif": "/skateboarding/static/media/texas-two-step-demo.bffcabbf3353024f603d.gif",
     "static/media/nose-stall-revert-demo.gif": "/skateboarding/static/media/nose-stall-revert-demo.9932ef253578f9544e66.gif",
@@ -56,13 +56,18 @@
     "static/media/impact-label.woff": "/skateboarding/static/media/impact-label.c409c83060bce0751837.woff",
     "static/media/jmh-typewriter-dry-bold.woff": "/skateboarding/static/media/jmh-typewriter-dry-bold.7a22a179d9beda1f7d4a.woff",
     "static/media/texas-two-step-still.jpg": "/skateboarding/static/media/texas-two-step-still.88a4f994113127c8637b.jpg",
+    "static/media/tape-2.png": "/skateboarding/static/media/tape-2.2b7d369547562cef613b.png",
+    "static/media/tape-5.png": "/skateboarding/static/media/tape-5.27cf971ae566832f36a0.png",
+    "static/media/tape-4.png": "/skateboarding/static/media/tape-4.e120b4698bccf71719f7.png",
+    "static/media/tape-1.png": "/skateboarding/static/media/tape-1.c5a5d86deb457e5c6e8c.png",
+    "static/media/tape-3.png": "/skateboarding/static/media/tape-3.ae75601b5384593ee553.png",
     "index.html": "/skateboarding/index.html",
-    "main.13096429.css.map": "/skateboarding/static/css/main.13096429.css.map",
-    "main.7c2fd940.js.map": "/skateboarding/static/js/main.7c2fd940.js.map",
+    "main.ca05808c.css.map": "/skateboarding/static/css/main.ca05808c.css.map",
+    "main.20891d6c.js.map": "/skateboarding/static/js/main.20891d6c.js.map",
     "787.af6d8593.chunk.js.map": "/skateboarding/static/js/787.af6d8593.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13096429.css",
-    "static/js/main.7c2fd940.js"
+    "static/css/main.ca05808c.css",
+    "static/js/main.20891d6c.js"
   ]
 }
