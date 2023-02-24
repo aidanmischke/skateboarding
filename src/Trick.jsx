@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Note } from "./note";
 import { NoteBackground } from "./note-background";
+import NoteTape from "./note-tape";
 import TrickNotes from "./resources/trick-notes.json";
 
 export const Trick = (props) => {
@@ -53,11 +54,14 @@ export const Trick = (props) => {
         <Note
           noteLines={noteLines}
         ></Note>
+
+        <NoteTape
+          noteTape={props.noteTape}
+        ></NoteTape>
         
         <NoteBackground
-          noteLines={noteLines}
           noteBackground={props.noteBackground}
-          noteTape={props.noteTape}
+          noteLines={noteLines}
         ></NoteBackground>
 
       </div>

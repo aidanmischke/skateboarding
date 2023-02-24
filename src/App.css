@@ -60,6 +60,13 @@ body {
   margin: 10% 2% 0% 14%;
 }
 
+.stack-4-note-tape {
+  z-index: 4;
+  grid-row: 16;
+  grid-column: 1 / span 8;
+  margin: 10% 2% 0% 14%;
+}
+
 .stack-3-note-background {
   z-index: 3;
   grid-row: 16;
