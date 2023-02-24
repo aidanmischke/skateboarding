@@ -36,7 +36,7 @@ export const NoteTape = (props) => {
     <div className="stack-4-note-tape">
       {noteTapeImages ? (
         noteTapeImages.map((tape) => (
-          <img src={tape} alt={"foobar"} style={{ margin: "-15% 0% 0% 0%" }} />
+          <img src={tape} alt={"foobar"} style={{ margin: "-10% 0% 0% 0%", maxHeight: "35px" }} />
         ))
       ) : (
         <p>Loading...</p>
