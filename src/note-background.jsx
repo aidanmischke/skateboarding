@@ -21,13 +21,8 @@ export const NoteBackground = (props) => {
     const noteHeight = Math.ceil(noteBackgroundHeight) * pixelMultiplier;
     const styleHeight = noteHeight + "px";
 
-    // const random = 
-
-    // const randomNoteTape = noteTape["tape-"]
-
     return (
-      <div className="stack-3-note-background">            
-        {/* <img src={} /> */}
+      <div className="stack-3-note-background">
         <img src={noteBackground} style={{height: styleHeight, maxHeight: styleMaxHeight}} />
       </div>
     );
