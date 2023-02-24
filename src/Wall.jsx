@@ -19,17 +19,17 @@ export const Wall = () => {
     require.context("./resources", true, /\.(png|jpe?g|gif)$/)
   );
 
-  function getNoteBackgrounds(object) {
-    let noteBackgrounds = {};
+  function getNoteTape(object) {
+    let noteTape = {};
     for (const property in object) {
-        if (property.includes("note-")) {
-        noteBackgrounds[property] = object[property];
+        if (property.includes("tape")) {
+        noteTape[property] = object[property];
       }
     }
-    return noteBackgrounds;
+    return noteTape;
   }
 
-  const noteBackgrounds = getNoteBackgrounds(images);
+  const noteTape = getNoteTape(images);
 
   const trickCount = TrickOrder.Order.length;
 
@@ -46,7 +46,8 @@ export const Wall = () => {
         polaroid={images[trickParams.polaroid]}
         still={images[trickParams.still]}
         demo={images[trickParams.demo]}
-        noteBackgrounds={noteBackgrounds}
+        noteBackground={images["note-background"]}
+        noteTape={noteTape}
         source={<Source url={trickParams.source}></Source>}
       ></Trick>
     );

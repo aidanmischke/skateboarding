@@ -56,7 +56,8 @@ export const Trick = (props) => {
         
         <NoteBackground
           noteLines={noteLines}
-          noteBackgrounds={props.noteBackgrounds}
+          noteBackground={props.noteBackground}
+          noteTape={props.noteTape}
         ></NoteBackground>
 
       </div>
