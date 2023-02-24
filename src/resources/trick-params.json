@@ -2,143 +2,120 @@
   "50-50 Grind": {
     "still": "50-50-grind-still",
     "demo": "50-50-grind-demo",
-    "noteBackground": "note-7",
     "polaroid": "polaroid-3"
   },
   "5-0 Stall": {
     "still": "5-0-stall-still",
     "demo": "5-0-stall-demo",
-    "noteBackground": "note-6",
     "polaroid": "polaroid-2"
   },
   "5-0 Stall Fakie": {
     "still": "5-0-stall-fakie-still",
     "demo": "5-0-stall-fakie-demo",
-    "noteBackground": "note-8",
     "polaroid": "polaroid-1",
     "source": "https://youtu.be/X_TOlXoeN64"
   },
   "Axle Stall": {
     "still": "axle-stall-still",
     "demo": "axle-stall-demo",
-    "noteBackground": "note-4",
     "polaroid": "polaroid-1"
   },
   "Disaster": {
     "still": "disaster-still",
     "demo": "disaster-demo",
-    "noteBackground": "note-11",
     "polaroid": "polaroid-3",
     "source": "https://youtu.be/o7C4Vk8U82U?t=245"
   },
   "Fakie Half Cab Rock": {
     "still": "fakie-half-cab-rock-still",
     "demo": "fakie-half-cab-rock-demo",
-    "noteBackground": "note-6",
     "polaroid": "polaroid-2"
   },
   "Fakie Crook": {
     "still": "fakie-crook-still",
     "demo": "fakie-crook-demo",
-    "noteBackground": "note-6",
     "polaroid": "polaroid-2",
     "source": "https://youtu.be/o7C4Vk8U82U?t=140"
   },  
   "Fakie Tail Stall": {
     "still": "fakie-tail-stall-still",
     "demo": "fakie-tail-stall-demo",
-    "noteBackground": "note-7",
     "polaroid": "polaroid-1"
   },
   "Falling": {
     "still": "falling-still",
     "demo": "falling-demo",
-    "noteBackground": "note-10",
     "polaroid": "polaroid-2"
   },
   "Feeble Stall": {
     "still": "feeble-stall-still",
     "demo": "feeble-stall-demo",
-    "noteBackground": "note-5",
     "polaroid": "polaroid-1"
   },
   "FS Grab": {
     "still": "fs-grab-still",
     "demo": "fs-grab-demo",
-    "noteBackground": "note-8",
     "polaroid": "polaroid-2"
   },
   "Half Cab Rock+Roll": {
   "still": "half-cab-rock-and-roll-still",
   "demo": "half-cab-rock-and-roll-demo",
-  "noteBackground": "note-6",
   "polaroid": "polaroid-2",
   "source": "https://youtu.be/o7C4Vk8U82U?t=354"
   },
   "Lipslide": {
     "still": "lipslide-still",
     "demo": "lipslide-demo",
-    "noteBackground": "note-7",
     "polaroid": "polaroid-2"
   },
   "Manual": {
     "still": "manual-still",
     "demo": "manual-demo",
-    "noteBackground": "note-7",
     "polaroid": "polaroid-2"
   },
   "Nose Stall Revert": {
     "still": "nose-stall-revert-still",
     "demo": "nose-stall-revert-demo",
-    "noteBackground": "note-9",
     "polaroid": "polaroid-1"
   },
   "Pushing": {
     "still": "pushing-still",
     "demo": "pushing-demo",
-    "noteBackground": "note-3",
     "polaroid": "polaroid-3"
   },
   "Rock and Roll": {
     "still": "rock-and-roll-still",
     "demo": "rock-and-roll-demo",
-    "noteBackground": "note-10",
     "polaroid": "polaroid-1"
   },
   "Rock to Fakie": {
     "still": "rock-to-fakie-still",
     "demo": "rock-to-fakie-demo",
-    "noteBackground": "note-8",
     "polaroid": "polaroid-1"
   },
   "Roll In": {
     "still": "roll-in-still",
     "demo": "roll-in-demo",
-    "noteBackground": "note-8",
     "polaroid": "polaroid-2"
   },
   "Slash Grind": {
     "still": "slash-grind-still",
     "demo": "slash-grind-demo",
-    "noteBackground": "note-7",
     "polaroid": "polaroid-3"
   },
   "Staple Gun": {
     "still": "staple-gun-still",
     "demo": "staple-gun-demo",
-    "noteBackground": "note-11",
     "polaroid": "polaroid-2"
   },
   "Tail Stall Nose Grab": {
     "still": "tail-stall-nose-grab-still",
     "demo": "tail-stall-nose-grab-demo",
-    "noteBackground": "note-3",
     "polaroid": "polaroid-1"
   },
   "Texas Two-Step": {
     "still": "texas-two-step-still",
     "demo": "texas-two-step-demo",
-    "noteBackground": "note-9",
     "polaroid": "polaroid-1",
     "source": "https://www.youtube.com/watch?v=TRGVdjQukes&ab_channel=DaSkateChannelTV9"
   }
