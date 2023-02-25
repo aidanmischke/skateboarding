@@ -1,0 +1,55 @@
+[1mdiff --git a/src/Trick.jsx b/src/Trick.jsx[m
+[1mindex 19d74ca..a4da594 100644[m
+[1m--- a/src/Trick.jsx[m
+[1m+++ b/src/Trick.jsx[m
+[36m@@ -28,13 +28,18 @@[m [mexport const Trick = (props) => {[m
+         onMouseLeave={() => setShowDemo(false)}[m
+       >[m
+         <div className={"stack-4-polaroid-frame"}>[m
+[31m-          <img src={props.polaroid} alt={"polaroid photo of " + props.name} />[m
+[32m+[m[32m          <img[m[41m [m
+[32m+[m[32m            src={props.polaroid}[m
+[32m+[m[32m            alt={"polaroid photo of " + props.name}[m
+[32m+[m[32m            loading="lazy"[m
+[32m+[m[32m          />[m
+         </div>[m
+ [m
+         <div className="stack-1-trick-still-and-demo">[m
+           <img[m
+             src={showDemo ? props.demo : props.still}[m
+             alt={props.name + " trick"}[m
+[32m+[m[32m            loading="lazy"[m
+           />[m
+         </div>[m
+ [m
+[1mdiff --git a/src/note-background.jsx b/src/note-background.jsx[m
+[1mindex 57d1dff..ade50aa 100644[m
+[1m--- a/src/note-background.jsx[m
+[1m+++ b/src/note-background.jsx[m
+[36m@@ -26,6 +26,7 @@[m [mexport const NoteBackground = (props) => {[m
+       <img[m
+         src={noteBackground}[m
+         style={{ height: styleHeight, maxHeight: styleMaxHeight }}[m
+[32m+[m[32m        loading="lazy"[m
+       />[m
+     </div>[m
+   );[m
+[1mdiff --git a/src/note-tape.jsx b/src/note-tape.jsx[m
+[1mindex 97efb89..339dd6d 100644[m
+[1m--- a/src/note-tape.jsx[m
+[1m+++ b/src/note-tape.jsx[m
+[36m@@ -68,7 +68,13 @@[m [mexport const NoteTape = (props) => {[m
+     <div className="stack-3-note-tape">[m
+       {noteTapeImages ? ([m
+         noteTapeImages.map((tape) => ([m
+[31m-          <img src={tape} alt={"foobar"} className={tapeClass} style={{ margin: "-10% 0% 0% 0%", maxHeight: "40px" }} />[m
+[32m+[m[32m          <img[m[41m [m
+[32m+[m[32m            src={tape}[m
+[32m+[m[32m            alt={"foobar"}[m
+[32m+[m[32m            className={tapeClass}[m
+[32m+[m[32m            style={{ margin: "-10% 0% 0% 0%", maxHeight: "40px" }}[m
+[32m+[m[32m            loading="lazy"[m
+[32m+[m[32m          />[m
+         ))[m
+       ) : ([m
+         <p>Loading...</p>[m

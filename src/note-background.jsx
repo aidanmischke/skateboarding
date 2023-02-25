@@ -26,6 +26,7 @@ export const NoteBackground = (props) => {
       <img
         src={noteBackground}
         style={{ height: styleHeight, maxHeight: styleMaxHeight }}
+        loading="lazy"
       />
     </div>
   );

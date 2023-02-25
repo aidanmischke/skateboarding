@@ -28,13 +28,18 @@ export const Trick = (props) => {
         onMouseLeave={() => setShowDemo(false)}
       >
         <div className={"stack-4-polaroid-frame"}>
-          <img src={props.polaroid} alt={"polaroid photo of " + props.name} />
+          <img 
+            src={props.polaroid}
+            alt={"polaroid photo of " + props.name}
+            loading="lazy"
+          />
         </div>
 
         <div className="stack-1-trick-still-and-demo">
           <img
             src={showDemo ? props.demo : props.still}
             alt={props.name + " trick"}
+            loading="lazy"
           />
         </div>
 
