@@ -3,7 +3,7 @@ import React from "react";
 export const Note = (props) => {
   return (
     <div
-      className={`trickNotes stack-4-note-text`}
+      className={`trickNotes stack-2-note-text`}
       style={{
         fontFamily: "JMH Typewriter dry Bold",
         fontWeight: "normal",

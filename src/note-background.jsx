@@ -22,7 +22,7 @@ export const NoteBackground = (props) => {
   const styleHeight = noteHeight + "px";
 
   return (
-    <div className="stack-3-note-background">
+    <div className="stack-1-note-background">
       <img
         src={noteBackground}
         style={{ height: styleHeight, maxHeight: styleMaxHeight }}

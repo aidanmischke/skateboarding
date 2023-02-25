@@ -18,7 +18,7 @@ export const NoteTape = (props) => {
 
     setNoteTapeImages(randomTape);
   }, [setNoteTapeImages]);
-
+  
   useEffect(() => {
     getTape();
   }, [getTape]);
@@ -32,11 +32,43 @@ export const NoteTape = (props) => {
     return noteTape["tape-" + randomInt];
   }
 
+  const rotateClasses = [
+    "level",
+    "rotate-cw",
+    "rotate-ccw",
+  ];
+
+  const flipClasses = [
+    "regular",
+    "img-hor",
+    "img-vert",
+    "img-hor-vert",
+  ];
+
+  function getRandomTapeClasses() {
+    let classes = "";
+    classes += rotateClasses[randomIntFromInterval(0, (rotateClasses.length -1))];
+    classes += " ";
+    classes += flipClasses[randomIntFromInterval(0, (flipClasses.length -1))];
+    return classes;
+  }
+
+  const [tapeClass, setTapeClass] = useState();
+
+  const getTapeClass = useCallback(() => {
+    const tapeClasses = getRandomTapeClasses();
+    setTapeClass(tapeClasses);
+  }, [setTapeClass]);  
+
+  useEffect(() => {
+    getTapeClass();
+  }, [getTapeClass]);
+
   return (
-    <div className="stack-4-note-tape">
+    <div className="stack-3-note-tape">
       {noteTapeImages ? (
         noteTapeImages.map((tape) => (
-          <img src={tape} alt={"foobar"} style={{ margin: "-10% 0% 0% 0%", maxHeight: "35px" }} />
+          <img src={tape} alt={"foobar"} className={tapeClass} style={{ margin: "-10% 0% 0% 0%", maxHeight: "40px" }} />
         ))
       ) : (
         <p>Loading...</p>

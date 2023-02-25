@@ -23,8 +23,8 @@ body {
   rotate: z 1deg;
 }
 
-.stack-2-polaroid-frame {
-  z-index: 2;
+.stack-4-polaroid-frame {
+  z-index: 4;
   grid-row: 1;
   grid-column: 1 / span 9;
   margin: 0% 0% 0% 0.5%;
@@ -38,37 +38,37 @@ body {
   margin: 13% 8% 13% 13.5%;
 }
 
-.stack-3-trick-label {
-  z-index: 3;
+.stack-5-trick-label {
+  z-index: 5;
   grid-row: 11;
   grid-column: 2 / span 7;
   margin: 7% 0% 0% 7%;
 }
 
-.stack-3-trick-source {
-  z-index: 3;
+.stack-5-trick-source {
+  z-index: 5;
   grid-row: 6;
   grid-column: 8 / span 2;
   margin: 7% 0% 0% 11%;
   writing-mode: vertical-rl;
 }
 
-.stack-4-note-text {
-  z-index: 4;
+.stack-2-note-text {
+  z-index: 2;
   grid-row: 16;
   grid-column: 1 / span 9;
   margin: 10% 3% 0% 5%;
 }
 
-.stack-4-note-tape {
-  z-index: 4;
+.stack-3-note-tape {
+  z-index: 3;
   grid-row: 16;
   grid-column: 1 / span 8;
   margin: 10% 2% 0% 14%;
 }
 
-.stack-3-note-background {
-  z-index: 3;
+.stack-1-note-background {
+  z-index: 1;
   grid-row: 16;
   grid-column: 1 / span 9;
   margin: 7% 0% 0% 0%;
@@ -78,6 +78,39 @@ img {
   width: 100%;
   display: block;
   position: relative;
+}
+
+.rotate-cw {
+  rotate: z 1deg;
+}
+
+.rotate-ccw {
+  rotate: z -1deg;
+}
+
+.img-hor {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.img-vert {
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  filter: FlipV;
+  -ms-filter: "FlipV";
+}
+
+.img-hor-vert {
+  -moz-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
 }
 
 .trickLabel {
