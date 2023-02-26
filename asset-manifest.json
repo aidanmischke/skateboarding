@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/skateboarding/static/css/main.8b6a6bda.css",
-    "main.js": "/skateboarding/static/js/main.66207608.js",
+    "main.js": "/skateboarding/static/js/main.92c26f86.js",
     "static/js/787.af6d8593.chunk.js": "/skateboarding/static/js/787.af6d8593.chunk.js",
-    "static/media/texas-two-step-demo.gif": "/skateboarding/static/media/texas-two-step-demo.0af3870507316d6040c4.gif",
     "static/media/nose-stall-revert-demo.gif": "/skateboarding/static/media/nose-stall-revert-demo.9932ef253578f9544e66.gif",
     "static/media/staple-gun-demo.gif": "/skateboarding/static/media/staple-gun-demo.e4c60ffbe107178816fd.gif",
     "static/media/50-50-grind-demo.gif": "/skateboarding/static/media/50-50-grind-demo.dcaeecf4ccf1355e28c1.gif",
     "static/media/slash-grind-demo.gif": "/skateboarding/static/media/slash-grind-demo.679209b0f6792b188dd2.gif",
     "static/media/lipslide-demo.gif": "/skateboarding/static/media/lipslide-demo.de52c0612defc4a0bd75.gif",
     "static/media/rock-and-roll-demo.gif": "/skateboarding/static/media/rock-and-roll-demo.26824a3fde8aa1505494.gif",
+    "static/media/texas-two-step-demo.gif": "/skateboarding/static/media/texas-two-step-demo.52e6fd85346d63faa0b8.gif",
     "static/media/axle-stall-demo.gif": "/skateboarding/static/media/axle-stall-demo.0e0ae84b2cd5fb13e6af.gif",
     "static/media/manual-demo.gif": "/skateboarding/static/media/manual-demo.1a4ed3a8b31cedfb887f.gif",
     "static/media/pushing-demo.gif": "/skateboarding/static/media/pushing-demo.aa983964e4059c93f975.gif",
@@ -24,8 +24,8 @@
     "static/media/fakie-half-cab-rock-demo.gif": "/skateboarding/static/media/fakie-half-cab-rock-demo.7895290ed259a3319ae2.gif",
     "static/media/disaster-demo.gif": "/skateboarding/static/media/disaster-demo.70f204318b0d4c0dfa0d.gif",
     "static/media/5-0-stall-fakie-demo.gif": "/skateboarding/static/media/5-0-stall-fakie-demo.4f69b078bf5976ca1783.gif",
-    "static/media/fakie-crook-demo.gif": "/skateboarding/static/media/fakie-crook-demo.b594033c871d5eda7dbc.gif",
     "static/media/fakie-tail-stall-demo.gif": "/skateboarding/static/media/fakie-tail-stall-demo.c88134718b3600901067.gif",
+    "static/media/fakie-crook-demo.gif": "/skateboarding/static/media/fakie-crook-demo.0dc30ca9efec9770b308.gif",
     "static/media/note-background.png": "/skateboarding/static/media/note-background.719cab36d2f0e377eca1.png",
     "static/media/wood-background.jpg": "/skateboarding/static/media/wood-background.1101e55e878a955f41fe.jpg",
     "static/media/disaster-still.jpg": "/skateboarding/static/media/disaster-still.95336a048597259d0d64.jpg",
@@ -62,11 +62,11 @@
     "static/media/tape-3.png": "/skateboarding/static/media/tape-3.a2c246617ccd8f2b3f05.png",
     "index.html": "/skateboarding/index.html",
     "main.8b6a6bda.css.map": "/skateboarding/static/css/main.8b6a6bda.css.map",
-    "main.66207608.js.map": "/skateboarding/static/js/main.66207608.js.map",
+    "main.92c26f86.js.map": "/skateboarding/static/js/main.92c26f86.js.map",
     "787.af6d8593.chunk.js.map": "/skateboarding/static/js/787.af6d8593.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8b6a6bda.css",
-    "static/js/main.66207608.js"
+    "static/js/main.92c26f86.js"
   ]
 }
