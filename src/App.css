@@ -30,8 +30,16 @@ body {
   margin: 0% 0% 0% 0.5%;
 }
 
-.stack-1-trick-still-and-demo {
+.stack-1-trick-still {
   z-index: 1;
+  grid-row: 1;
+  grid-column: 1 / span 9;
+  width: 75%;
+  margin: 13% 8% 13% 13.5%;
+}
+
+.stack-0-trick-demo {
+  z-index: 0;
   grid-row: 1;
   grid-column: 1 / span 9;
   width: 75%;

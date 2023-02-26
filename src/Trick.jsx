@@ -35,9 +35,17 @@ export const Trick = (props) => {
           />
         </div>
 
-        <div className="stack-1-trick-still-and-demo">
+        <div className="stack-1-trick-still" style={showDemo ? {zIndex: 0} : {zIndex: 1}}>
           <img
-            src={showDemo ? props.demo : props.still}
+            src={props.still}
+            alt={props.name + " trick"}
+            loading="lazy"
+          />
+        </div>
+
+        <div className="stack-0-trick-demo" style={showDemo ? {zIndex: 1} : {zIndex: 0}}>
+          <img
+            src={props.demo}
             alt={props.name + " trick"}
             loading="lazy"
           />
