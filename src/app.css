@@ -57,7 +57,8 @@ body {
   z-index: 5;
   grid-row: 2;
   grid-column: 7;
-  margin: 18% 0% 0% 35%;
+  /* margin: 18% 0% 0% 35%; */ /* todo: align polaroid frames as they differ slightly */
+  margin: 18.5% 0% 0% 35%;
 }
 
 .stack-2-note-text {
