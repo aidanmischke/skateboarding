@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Polaroid } from "./polaroid";
 import { Note } from "./note";
 import { NoteBackground } from "./note-background";
 import NoteTape from "./note-tape";
@@ -6,11 +7,6 @@ import TrickNotes from "./resources/trick-notes.json";
 
 export const Trick = (props) => {
   const [showDemo, setShowDemo] = useState(false);
-
-  const polaroidPath = props.polaroid;
-
-  let polaroidName = polaroidPath.replace("/skateboarding/static/media/", "");
-  polaroidName = polaroidName.replace(/\..+/, "");
 
   const noteText = TrickNotes[props.name];
   const noteLength = noteText.length;
@@ -27,13 +23,9 @@ export const Trick = (props) => {
         onMouseEnter={() => setShowDemo(true)}
         onMouseLeave={() => setShowDemo(false)}
       >
-        <div className={"stack-4-polaroid-frame"}>
-          <img 
-            src={props.polaroid}
-            alt={"polaroid photo of " + props.name}
-            loading="lazy"
-          />
-        </div>
+        <Polaroid
+          polaroids={props.polaroids}
+        ></Polaroid>
 
         {/* <div className="stack-1-trick-still" style={showDemo ? {zIndex: 0} : {zIndex: 1}}>
           <img

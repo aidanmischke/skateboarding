@@ -19,17 +19,18 @@ export const Wall = () => {
     require.context("./resources", true, /\.(png|jpe?g|gif)$/)
   );
 
-  function getNoteTape(object) {
-    let noteTape = {};
+  function getImagesWithPrefix(object, imagePrefix) {
+    let images = {};
     for (const property in object) {
-      if (property.includes("tape")) {
-        noteTape[property] = object[property];
+      if (property.includes(imagePrefix)) {
+        images[property] = object[property];
       }
     }
-    return noteTape;
+    return images;
   }
 
-  const noteTape = getNoteTape(images);
+  const polaroids = getImagesWithPrefix(images, "polaroid-");
+  const noteTape = getImagesWithPrefix(images, "tape-");
 
   const trickCount = TrickOrder.Order.length;
 
@@ -43,7 +44,7 @@ export const Wall = () => {
       <Trick
         key={i}
         name={trickName}
-        polaroid={images[trickParams.polaroid]}
+        polaroids={polaroids}
         still={images[trickParams.still]}
         demo={images[trickParams.demo]}
         noteBackground={images["note-background"]}
