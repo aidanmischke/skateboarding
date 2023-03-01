@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/skateboarding/static/css/main.35f5b775.css",
-    "main.js": "/skateboarding/static/js/main.6b4c2b2e.js",
+    "main.css": "/skateboarding/static/css/main.e3487a89.css",
+    "main.js": "/skateboarding/static/js/main.0807159c.js",
     "static/js/787.af6d8593.chunk.js": "/skateboarding/static/js/787.af6d8593.chunk.js",
     "static/media/nose-stall-revert-demo.gif": "/skateboarding/static/media/nose-stall-revert-demo.30370277995a842d3d7d.gif",
     "static/media/texas-two-step-demo.gif": "/skateboarding/static/media/texas-two-step-demo.6cf9f167139b7deebfc1.gif",
@@ -66,12 +66,12 @@
     "static/media/tape-1.png": "/skateboarding/static/media/tape-1.018273a9bf7adaa0f7c4.png",
     "static/media/tape-3.png": "/skateboarding/static/media/tape-3.a2c246617ccd8f2b3f05.png",
     "index.html": "/skateboarding/index.html",
-    "main.35f5b775.css.map": "/skateboarding/static/css/main.35f5b775.css.map",
-    "main.6b4c2b2e.js.map": "/skateboarding/static/js/main.6b4c2b2e.js.map",
+    "main.e3487a89.css.map": "/skateboarding/static/css/main.e3487a89.css.map",
+    "main.0807159c.js.map": "/skateboarding/static/js/main.0807159c.js.map",
     "787.af6d8593.chunk.js.map": "/skateboarding/static/js/787.af6d8593.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35f5b775.css",
-    "static/js/main.6b4c2b2e.js"
+    "static/css/main.e3487a89.css",
+    "static/js/main.0807159c.js"
   ]
 }
