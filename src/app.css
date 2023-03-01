@@ -55,10 +55,9 @@ body {
 
 .stack-5-trick-source {
   z-index: 5;
-  grid-row: 6;
-  grid-column: 8 / span 2;
-  margin: 7% 0% 0% 11%;
-  writing-mode: vertical-rl;
+  grid-row: 2;
+  grid-column: 7;
+  margin: 18% 0% 0% 35%;
 }
 
 .stack-2-note-text {
@@ -123,10 +122,6 @@ img {
 
 .trickLabel {
   rotate: z -1deg;
-}
-
-.trickSource {
-  rotate: z -90deg;
 }
 
 a:link {
