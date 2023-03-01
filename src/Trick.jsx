@@ -35,13 +35,13 @@ export const Trick = (props) => {
           />
         </div>
 
-        <div className="stack-1-trick-still" style={showDemo ? {zIndex: 0} : {zIndex: 1}}>
+        {/* <div className="stack-1-trick-still" style={showDemo ? {zIndex: 0} : {zIndex: 1}}>
           <img
             src={props.still}
             alt={props.name + " trick"}
             loading="lazy"
           />
-        </div>
+        </div> */}
 
         <div className="stack-0-trick-demo" style={showDemo ? {zIndex: 1} : {zIndex: 0}}>
           <img
