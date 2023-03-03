@@ -6,7 +6,7 @@ import NoteTape from "./note-tape";
 import TrickNotes from "./resources/trick-notes.json";
 
 export const Trick = (props) => {
-  const [showDemo, setShowDemo] = useState(false);
+  // const [showDemo, setShowDemo] = useState(false);
 
   const noteText = TrickNotes[props.name];
   const noteLength = noteText.length;
@@ -20,22 +20,24 @@ export const Trick = (props) => {
     <div>
       <div
         className="image-stack"
-        onMouseEnter={() => setShowDemo(true)}
-        onMouseLeave={() => setShowDemo(false)}
+        // onMouseEnter={() => setShowDemo(true)}
+        // onMouseLeave={() => setShowDemo(false)}
       >
         <Polaroid
           polaroids={props.polaroids}
         ></Polaroid>
 
-        {/* <div className="stack-1-trick-still" style={showDemo ? {zIndex: 0} : {zIndex: 1}}>
+        {/* style={showDemo ? {zIndex: 0} : {zIndex: 1}} */}
+        <div className="stack-1-trick-still">
           <img
             src={props.still}
             alt={props.name + " trick"}
             loading="lazy"
           />
-        </div> */}
+        </div>
 
-        <div className="stack-0-trick-demo" style={showDemo ? {zIndex: 1} : {zIndex: 0}}>
+        {/* style={showDemo ? {zIndex: 1} : {zIndex: 0}} */}
+        <div className="stack-0-trick-demo">
           <img
             src={props.demo}
             alt={props.name + " trick"}

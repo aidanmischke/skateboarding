@@ -31,7 +31,7 @@ body {
 }
 
 .stack-1-trick-still {
-  z-index: 1;
+  z-index: 0;
   grid-row: 1;
   grid-column: 1 / span 9;
   width: 75%;
@@ -39,7 +39,7 @@ body {
 }
 
 .stack-0-trick-demo {
-  z-index: 0;
+  z-index: 1;
   grid-row: 1;
   grid-column: 1 / span 9;
   width: 75%;
@@ -58,7 +58,7 @@ body {
   grid-row: 2;
   grid-column: 7;
   /* margin: 18% 0% 0% 35%; */ /* todo: align polaroid frames as they differ slightly */
-  margin: 18.5% 0% 0% 35%;
+  margin: 19% 0% 0% 35%;
 }
 
 .stack-2-note-text {
