@@ -8,7 +8,7 @@ export const Source = (props) => {
         style={{
           fontFamily: "Impact Label",
           fontWeight: "normal",
-          fontSize: "110%",
+          fontSize: "85%",
         }}
       >
         <a href={props.url} target="_blank">
