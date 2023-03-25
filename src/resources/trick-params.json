@@ -63,6 +63,24 @@
   "polaroid": "polaroid-6",
   "source": "https://youtu.be/o7C4Vk8U82U?t=354"
   },
+  "Hand Plant": {
+    "still": "hand-plant-still",
+    "demo": "hand-plant-demo",
+    "polaroid": "polaroid-1",
+    "source": "https://youtu.be/0zFQPEZNMPE?t=35"
+  },
+  "Hand Plant Step 1": {
+    "still": "hand-plant-step-1-still",
+    "demo": "hand-plant-step-1-demo",
+    "polaroid": "polaroid-2",
+    "source": "https://youtu.be/0zFQPEZNMPE?t=8"
+  },
+  "Hand Plant Step 2": {
+    "still": "hand-plant-step-2-still",
+    "demo": "hand-plant-step-2-demo",
+    "polaroid": "polaroid-3",
+    "source": "https://youtu.be/0zFQPEZNMPE?t=27"
+  },
   "Lipslide": {
     "still": "lipslide-still",
     "demo": "lipslide-demo",
