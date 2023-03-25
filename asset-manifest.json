@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/skateboarding/static/css/main.95982efe.css",
-    "main.js": "/skateboarding/static/js/main.357b7103.js",
+    "main.js": "/skateboarding/static/js/main.13f5b0ad.js",
     "static/js/787.af6d8593.chunk.js": "/skateboarding/static/js/787.af6d8593.chunk.js",
+    "static/media/hand-plant-step-1-demo.gif": "/skateboarding/static/media/hand-plant-step-1-demo.23a0953884150643dd63.gif",
     "static/media/nose-stall-revert-demo.gif": "/skateboarding/static/media/nose-stall-revert-demo.30370277995a842d3d7d.gif",
     "static/media/texas-two-step-demo.gif": "/skateboarding/static/media/texas-two-step-demo.6cf9f167139b7deebfc1.gif",
     "static/media/staple-gun-demo.gif": "/skateboarding/static/media/staple-gun-demo.7c2a95eb8b49b8be95cd.gif",
     "static/media/50-50-grind-demo.gif": "/skateboarding/static/media/50-50-grind-demo.d9dc75d87b9ac0e1960d.gif",
+    "static/media/hand-plant-step-2-demo.gif": "/skateboarding/static/media/hand-plant-step-2-demo.1fa5f400baad89434429.gif",
     "static/media/slash-grind-demo.gif": "/skateboarding/static/media/slash-grind-demo.1214f56a718f281701d8.gif",
     "static/media/lipslide-demo.gif": "/skateboarding/static/media/lipslide-demo.600426a031da7c052062.gif",
     "static/media/axle-stall-demo.gif": "/skateboarding/static/media/axle-stall-demo.47e32e2f5cbe6f98e4a9.gif",
@@ -23,6 +25,7 @@
     "static/media/disaster-demo.gif": "/skateboarding/static/media/disaster-demo.26c94a530b3a679643fb.gif",
     "static/media/pushing-demo.gif": "/skateboarding/static/media/pushing-demo.7d951ade62ac27fb61f6.gif",
     "static/media/half-cab-rock-and-roll-demo.gif": "/skateboarding/static/media/half-cab-rock-and-roll-demo.e8b33913519d47839305.gif",
+    "static/media/hand-plant-demo.gif": "/skateboarding/static/media/hand-plant-demo.3347e531f14b210cd1ed.gif",
     "static/media/fakie-crook-demo.gif": "/skateboarding/static/media/fakie-crook-demo.c5195c1c1edd4449092f.gif",
     "static/media/5-0-stall-fakie-demo.gif": "/skateboarding/static/media/5-0-stall-fakie-demo.4c68bbcf8dfaa434b899.gif",
     "static/media/fakie-tail-stall-demo.gif": "/skateboarding/static/media/fakie-tail-stall-demo.e4c4b08504afd993ea4e.gif",
@@ -63,15 +66,17 @@
     "static/media/feeble-stall-still.jpg": "/skateboarding/static/media/feeble-stall-still.921bf9508d8b13cc46ce.jpg",
     "static/media/tape-4.png": "/skateboarding/static/media/tape-4.7c42067d32b7f800160f.png",
     "static/media/tape-2.png": "/skateboarding/static/media/tape-2.397235f2a296dc99153f.png",
+    "static/media/hand-plant-step-1-still.jpg": "/skateboarding/static/media/hand-plant-step-1-still.c396007509fafb413b1e.jpg",
     "static/media/tape-1.png": "/skateboarding/static/media/tape-1.018273a9bf7adaa0f7c4.png",
     "static/media/tape-3.png": "/skateboarding/static/media/tape-3.a2c246617ccd8f2b3f05.png",
+    "static/media/hand-plant-still.jpg": "/skateboarding/static/media/hand-plant-still.98b99ec6a53aac25a7e2.jpg",
     "index.html": "/skateboarding/index.html",
     "main.95982efe.css.map": "/skateboarding/static/css/main.95982efe.css.map",
-    "main.357b7103.js.map": "/skateboarding/static/js/main.357b7103.js.map",
+    "main.13f5b0ad.js.map": "/skateboarding/static/js/main.13f5b0ad.js.map",
     "787.af6d8593.chunk.js.map": "/skateboarding/static/js/787.af6d8593.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.95982efe.css",
-    "static/js/main.357b7103.js"
+    "static/js/main.13f5b0ad.js"
   ]
 }
