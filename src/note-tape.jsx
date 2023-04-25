@@ -6,10 +6,14 @@ export const NoteTape = (props) => {
 
   const [noteTapeImages, setNoteTapeImages] = useState();
 
-  const noteTape = props.noteTape;
-  const noteTapeCount = Object.keys(noteTape).length;
-
   const getTape = useCallback(() => {
+    const getRandomNoteTape = () => {
+      const noteTape = props.noteTape;
+      const noteTapeCount = Object.keys(noteTape).length;
+      const randomInt = randomIntFromInterval(1, noteTapeCount);
+      return noteTape["tape-" + randomInt];
+    };
+
     let randomTape = [];
 
     for (let i = 0; i < 1; i++) {
@@ -17,7 +21,7 @@ export const NoteTape = (props) => {
     }
 
     setNoteTapeImages(randomTape);
-  }, [setNoteTapeImages]);
+  }, [setNoteTapeImages, props.noteTape]);
   
   useEffect(() => {
     getTape();
@@ -27,35 +31,30 @@ export const NoteTape = (props) => {
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
 
-  function getRandomNoteTape() {
-    const randomInt = randomIntFromInterval(1, noteTapeCount);
-    return noteTape["tape-" + randomInt];
-  }
-
-  const rotateClasses = [
-    "level",
-    "rotate-cw",
-    "rotate-ccw",
-  ];
-
-  const flipClasses = [
-    "regular",
-    "img-hor",
-    "img-vert",
-    "img-hor-vert",
-  ];
-
-  function getRandomTapeClasses() {
-    let classes = "";
-    classes += rotateClasses[randomIntFromInterval(0, (rotateClasses.length -1))];
-    classes += " ";
-    classes += flipClasses[randomIntFromInterval(0, (flipClasses.length -1))];
-    return classes;
-  }
-
   const [tapeClass, setTapeClass] = useState();
 
   const getTapeClass = useCallback(() => {
+    const rotateClasses = [
+      "level",
+      "rotate-cw",
+      "rotate-ccw",
+    ];
+  
+    const flipClasses = [
+      "regular",
+      "img-hor",
+      "img-vert",
+      "img-hor-vert",
+    ];
+
+    const getRandomTapeClasses = () => {
+      let classes = "";
+      classes += rotateClasses[randomIntFromInterval(0, (rotateClasses.length -1))];
+      classes += " ";
+      classes += flipClasses[randomIntFromInterval(0, (flipClasses.length -1))];
+      return classes;
+    };
+
     const tapeClasses = getRandomTapeClasses();
     setTapeClass(tapeClasses);
   }, [setTapeClass]);  

@@ -6,10 +6,16 @@ export const Polaroid = (props) => {
 
   const [polaroidImages, setPolaroidImages] = useState();
 
-  const polaroids = props.polaroids;
-  const polaroidCount = Object.keys(polaroids).length;
 
   const getPolaroid = useCallback(() => {
+    const polaroids = props.polaroids;
+    const polaroidCount = Object.keys(polaroids).length;
+
+    const getRandomPolaroid = () => {
+      const randomInt = randomIntFromInterval(1, polaroidCount);
+      return polaroids["polaroid-" + randomInt];
+    };
+
     let randomPolaroid = [];
 
     for (let i = 0; i < 1; i++) {
@@ -17,7 +23,7 @@ export const Polaroid = (props) => {
     }
 
     setPolaroidImages(randomPolaroid);
-  }, [setPolaroidImages]);
+  }, [setPolaroidImages, props.polaroids]);
   
   useEffect(() => {
     getPolaroid();
@@ -25,11 +31,6 @@ export const Polaroid = (props) => {
 
   function randomIntFromInterval(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
-  }
-
-  function getRandomPolaroid() {
-    const randomInt = randomIntFromInterval(1, polaroidCount);
-    return polaroids["polaroid-" + randomInt];
   }
 
   // const rotateClasses = [
@@ -70,9 +71,7 @@ export const Polaroid = (props) => {
         polaroidImages.map((polaroid) => (
           <img 
             src={polaroid}
-            alt={"polaroid photo frame"} /* todo: mark as screen reader styling to ignore */
-            // className={polaroidClass}
-            // style={{ margin: "-10% 0% 0% 0%", maxHeight: "40px" }}
+            alt=""
             loading="lazy"
           />
         ))

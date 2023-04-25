@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Polaroid } from "./polaroid";
 import { Note } from "./note";
 import { NoteBackground } from "./note-background";

@@ -11,7 +11,7 @@ export const Source = (props) => {
           fontSize: "85%",
         }}
       >
-        <a href={props.url} target="_blank">
+        <a href={props.url} target="_blank" rel="noreferrer">
           Source
         </a>
       </span>

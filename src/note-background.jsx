@@ -27,6 +27,7 @@ export const NoteBackground = (props) => {
         src={noteBackground}
         style={{ height: styleHeight, maxHeight: styleMaxHeight }}
         loading="lazy"
+        alt=""
       />
     </div>
   );
