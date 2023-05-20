@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/skateboarding/static/css/main.95982efe.css",
-    "main.js": "/skateboarding/static/js/main.890373db.js",
+    "main.js": "/skateboarding/static/js/main.ed28aaaa.js",
     "static/js/787.af6d8593.chunk.js": "/skateboarding/static/js/787.af6d8593.chunk.js",
     "static/media/hand-plant-step-1-demo.gif": "/skateboarding/static/media/hand-plant-step-1-demo.23a0953884150643dd63.gif",
     "static/media/nose-stall-revert-demo.gif": "/skateboarding/static/media/nose-stall-revert-demo.30370277995a842d3d7d.gif",
     "static/media/texas-two-step-demo.gif": "/skateboarding/static/media/texas-two-step-demo.6cf9f167139b7deebfc1.gif",
+    "static/media/5-0-grind-demo.gif": "/skateboarding/static/media/5-0-grind-demo.5bf93ba16a91be954b94.gif",
     "static/media/staple-gun-demo.gif": "/skateboarding/static/media/staple-gun-demo.7c2a95eb8b49b8be95cd.gif",
     "static/media/50-50-grind-demo.gif": "/skateboarding/static/media/50-50-grind-demo.d9dc75d87b9ac0e1960d.gif",
     "static/media/hand-plant-step-2-demo.gif": "/skateboarding/static/media/hand-plant-step-2-demo.1fa5f400baad89434429.gif",
@@ -57,6 +58,7 @@
     "static/media/half-cab-rock-and-roll-still.jpg": "/skateboarding/static/media/half-cab-rock-and-roll-still.a0ae19bd16e97b86dbc6.jpg",
     "static/media/fs-grab-still.jpg": "/skateboarding/static/media/fs-grab-still.16d3b1bf4f028e03a3f3.jpg",
     "static/media/fakie-crook-still.jpg": "/skateboarding/static/media/fakie-crook-still.2dc6f6239aebcc457e91.jpg",
+    "static/media/5-0-grind-still.jpg": "/skateboarding/static/media/5-0-grind-still.333934f80a48cf76b25a.jpg",
     "static/media/texas-two-step-still.jpg": "/skateboarding/static/media/texas-two-step-still.5d9c88bb6c60dd4f4307.jpg",
     "static/media/5-0-stall-fakie-still.jpg": "/skateboarding/static/media/5-0-stall-fakie-still.18d601bbd3ac0cfdeb6b.jpg",
     "static/media/tail-stall-nose-grab-still.jpg": "/skateboarding/static/media/tail-stall-nose-grab-still.093270eaeddac0ac5284.jpg",
@@ -72,11 +74,11 @@
     "static/media/hand-plant-still.jpg": "/skateboarding/static/media/hand-plant-still.98b99ec6a53aac25a7e2.jpg",
     "index.html": "/skateboarding/index.html",
     "main.95982efe.css.map": "/skateboarding/static/css/main.95982efe.css.map",
-    "main.890373db.js.map": "/skateboarding/static/js/main.890373db.js.map",
+    "main.ed28aaaa.js.map": "/skateboarding/static/js/main.ed28aaaa.js.map",
     "787.af6d8593.chunk.js.map": "/skateboarding/static/js/787.af6d8593.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.95982efe.css",
-    "static/js/main.890373db.js"
+    "static/js/main.ed28aaaa.js"
   ]
 }
