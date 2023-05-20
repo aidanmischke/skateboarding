@@ -4,6 +4,12 @@
     "demo": "50-50-grind-demo",
     "polaroid": "polaroid-1"
   },
+  "5-0 Grind": {
+    "still": "5-0-grind-still",
+    "demo": "5-0-grind-demo",
+    "polaroid": "polaroid-3",
+    "source": "https://youtu.be/gW1A-ro1hYA"
+  },
   "5-0 Stall": {
     "still": "5-0-stall-still",
     "demo": "5-0-stall-demo",
